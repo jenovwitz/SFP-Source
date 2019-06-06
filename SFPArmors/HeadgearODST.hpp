@@ -81,6 +81,12 @@ class SFPA_UNSC_CH252D_Helmet_Templar_medic_dp : OPTRE_UNSC_CH252D_Helmet_dp
 	displayName = "CH252D Helmet (Medic) [Templar]";
 	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_Templar_medic_co.paa", "SFPArmors\data\odst_helmet_visor_Templar_dp_co.paa"};
 };
+class SFPA_UNSC_CH252D_Helmet_Talbot : OPTRE_UNSC_CH252D_Helmet
+{
+	author = "Timm, Talbot";
+	displayName = "CH252D Helmet [TALBOT]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\head_Talbot.paa", "SFPArmors\data\head_visor_Talbot.paa"};
+};
 //ONI
 class SFPA_UNSC_ReconP : OPTRE_UNSC_Recon_Helmet
 {

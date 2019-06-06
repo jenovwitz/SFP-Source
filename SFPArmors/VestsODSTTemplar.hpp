@@ -47,7 +47,13 @@ class SFPA_UNSC_M52D_Armor_Light_Templar: OPTRE_UNSC_M52D_Armor_Light
 	displayName = "M52D Body Armor (Light) [Templar]";
 	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Templar_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_Templar_co.paa"};
 };
-
+//Custom
+class SFPA_UNSC_M52D_Armor_Talbot : OPTRE_UNSC_M52D_Armor_Rifleman
+{
+	author = "Talbot";
+	displayName = "M52D Body Armor [TALBOT]";
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Templar_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\Talbot_armor.paa"};
+};
 //ONI
 class SFPA_ONI_M52D_Armor_Scout_Krieger: OPTRE_UNSC_M52D_Armor
 {

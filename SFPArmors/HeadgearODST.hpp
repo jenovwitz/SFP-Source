@@ -52,7 +52,7 @@ class SFPA_UNSC_CH252D_Helmet_Raider_medic_dp : OPTRE_UNSC_CH252D_Helmet_dp
 class SFPA_UNSC_CH252D_Helmet_Raider_Garand : OPTRE_UNSC_CH252D_Helmet
 {
 	author = "Nineball";
-	displayName = "CH252D GARAND [Raider]";
+	displayName = "CH252D Helmet GARAND [Raider]";
 	hiddenSelectionsTextures[] = {"SFPArmors\data\garandshead.paa", "SFPArmors\data\ODST_Helmet_Visor_DP_co.paa"};
 };
 
@@ -84,7 +84,7 @@ class SFPA_UNSC_CH252D_Helmet_Templar_medic_dp : OPTRE_UNSC_CH252D_Helmet_dp
 class SFPA_UNSC_CH252D_Helmet_Talbot : OPTRE_UNSC_CH252D_Helmet
 {
 	author = "Talbot";
-	displayName = "CH252D Helmet [TALBOT]";
+	displayName = "CH252D Helmet TALBOT [Templar]";
 	hiddenSelectionsTextures[] = {"SFPArmors\data\head_Talbot.paa", "SFPArmors\data\head_visor_Talbot.paa"};
 };
 //ONI

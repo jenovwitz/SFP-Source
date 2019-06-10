@@ -85,7 +85,7 @@ class SFPA_UNSC_CH252D_Helmet_Talbot : OPTRE_UNSC_CH252D_Helmet
 {
 	author = "Talbot";
 	displayName = "CH252D Helmet TALBOT [Templar]";
-	hiddenSelectionsTextures[] = {"SFPArmors\data\head_Talbot.paa", "SFPArmors\data\head_visor_Talbot.paa"};
+	hiddenSelectionsTextures[] = {"SFPArmors\data\head_Talbot.paa", "SFPArmors\data\odst_helmet_Visor_Templar_co.paa"};
 };
 //ONI
 class SFPA_UNSC_ReconP : OPTRE_UNSC_Recon_Helmet

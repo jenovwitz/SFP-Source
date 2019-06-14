@@ -75,35 +75,65 @@ class SFPA_UNSC_CH252D_Helmet_Templar_medic_dp : OPTRE_UNSC_CH252D_Helmet_dp
 	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_Templar_medic_co.paa", "SFPArmors\data\odst_helmet_visor_Templar_dp_co.paa"};
 };
 //Custom Helmets
-class SFPA_UNSC_ReconP : OPTRE_UNSC_Recon_Helmet
+class SFPA_UNSC_Recon_Prophet : OPTRE_UNSC_Recon_Helmet
 {
 	author = "Prophet";
 	displayName = "ONI Helmet [PROPHET]";
 	hiddenSelectionsTextures[] = {"SFPArmors\data\Phillips_Recon_Co.paa", "SFPArmors\data\Phillips_Recon_Visor_Co.paa"};
 };
-class SFPA_UNSC_ReconK : OPTRE_UNSC_Recon_Helmet
+class SFPA_UNSC_Recon_Prophet_Dp : OPTRE_UNSC_Recon_Helmet
+{
+	author = "Prophet";
+	displayName = "ONI Helmet [PROPHET]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\Phillips_Recon_Co.paa", "SFPArmors\data\Recon_Visor_ca.paa"};
+};
+class SFPA_UNSC_Recon_Krieger : OPTRE_UNSC_Recon_Helmet
 {
 	author = "Nineball";
 	displayName = "ONI Helmet [VAMPIRE]";
 	hiddenSelectionsTextures[] = {"SFPArmors\data\Krieger_Recon_Co.paa", "SFPArmors\data\Krieger_Recon_Visor_Co.paa"};
 };
-class SFPA_UNSC_ReconPI : OPTRE_UNSC_Recon_Helmet
+class SFPA_UNSC_Recon_Krieger_ca : OPTRE_UNSC_Recon_Helmet
+{
+	author = "Nineball";
+	displayName = "ONI Helmet [VAMPIRE]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\Krieger_Recon_Co.paa", "SFPArmors\data\Recon_Visor_Ca.paa"};
+};
+class SFPA_UNSC_Recon_Pierre : OPTRE_UNSC_Recon_Helmet
 {
 	author = "Nineball";
 	displayName = "ONI Helmet [FIRESTONE]";
-	hiddenSelectionsTextures[] = {"SFPArmors\data\pierre_recon_co.paa", "SFPArmors\data\Krieger_recon_visor_co.paa"};
+	hiddenSelectionsTextures[] = {"SFPArmors\data\pierre_recon_co.paa", "SFPArmors\data\Pierre_recon_visor_co.paa"};
+};
+class SFPA_UNSC_Recon_Pierre_ca : OPTRE_UNSC_Recon_Helmet
+{
+	author = "Nineball";
+	displayName = "ONI Helmet [FIRESTONE]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\pierre_recon_co.paa", "SFPArmors\data\recon_visor_ca.paa"};
 };
 class SFPA_UNSC_CH252D_Helmet_Raider_Garand : OPTRE_UNSC_CH252D_Helmet
 {
 	author = "Nineball";
 	displayName = "CH252D Helmet [Garand]";
-	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_raider_garand.paa", "SFPArmors\data\ODST_Helmet_Visor_co.paa"};
+	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_garand.paa", "SFPArmors\data\ODST_Helmet_Visor_co.paa"};
+};
+class SFPA_UNSC_CH252D_Helmet_Raider_Garand_dp : OPTRE_UNSC_CH252D_Helmet
+{
+	author = "Nineball";
+	displayName = "CH252D Helmet [Garand]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_garand.paa", "SFPArmors\data\ODST_Helmet_Visor_dp_ca.paa"};
 };
 class SFPA_UNSC_CH252D_Helmet_Talbot : OPTRE_UNSC_CH252D_Helmet
 {
 	author = "Talbot";
 	displayName = "CH252D Helmet [Talbot]";
 	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_talbot_co.paa", "SFPArmors\data\odst_helmet_Visor_Templar_co.paa"};
+};
+class SFPA_UNSC_CH252D_Helmet_Talbot_dp : OPTRE_UNSC_CH252D_Helmet_dp
+{
+	author = "Talbot";
+	displayName = "CH252D Helmet [Talbot]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_talbot_co.paa", "SFPArmors\data\odst_helmet_Visor_Templar_dp_co.paa"};
 };
 /* Template
 //xxx

@@ -46,6 +46,7 @@ class SFPA_UNSC_M52D_Armor_Light_Raider: OPTRE_UNSC_M52D_Armor_Light
 	displayName = "M52D Body Armor (Light) [Raider]";
 	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Raider_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_Raider_co.paa"};
 };
+//Custom
 class SFPA_UNSC_M52D_Armor_Raider_Garand: OPTRE_UNSC_M52D_Armor_Demolitions
 {
 	author = "Nineball";

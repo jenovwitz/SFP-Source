@@ -51,11 +51,11 @@ class SFPA_UNSC_M52D_Armor_Light_Templar: OPTRE_UNSC_M52D_Armor_Light
 class SFPA_UNSC_M52D_Armor_Talbot : OPTRE_UNSC_M52D_Armor_Rifleman
 {
 	author = "Talbot";
-	displayName = "M52D Body Armor TALBOT [Templar]";
-	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Templar_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\Talbot_armor.paa"};
+	displayName = "M52D Body Armor [Talbot]";
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Templar_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\Odst_armor_talbot_co.paa"};
 };
 //ONI
-class SFPA_ONI_M52D_Armor_Scout_Krieger: OPTRE_UNSC_M52D_Armor
+class SFPA_ONI_M52D_Armor_Rifleman_Krieger: OPTRE_UNSC_M52D_Armor_Rifleman
 {
 	author = "Nineball";
 	displayName = "M52D ONI [VAMPIRE]";
@@ -65,7 +65,7 @@ class SFPA_ONI_M52D_Armor_Sniper_Pierre: OPTRE_UNSC_M52D_Armor_Sniper
 {
 	author = "Nineball";
 	displayName = "M52D ONI [FIRESTONE]";
-	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\pierreleg.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\pierrebody.paa"};
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\pierre_legs_odst_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\pierre_odst_armor_co.paa"};
 };
 
 

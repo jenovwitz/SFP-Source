@@ -85,7 +85,7 @@ class SFPA_UNSC_CH252D_Helmet_Talbot : OPTRE_UNSC_CH252D_Helmet
 {
 	author = "Talbot";
 	displayName = "CH252D Helmet TALBOT [Templar]";
-	hiddenSelectionsTextures[] = {"SFPArmors\data\head_Talbot.paa", "SFPArmors\data\odst_helmet_Visor_Templar_co.paa"};
+	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_talbot_co.paa", "SFPArmors\data\odst_helmet_Visor_Templar_co.paa"};
 };
 //ONI
 class SFPA_UNSC_ReconP : OPTRE_UNSC_Recon_Helmet
@@ -104,7 +104,7 @@ class SFPA_UNSC_ReconPI : OPTRE_UNSC_Recon_Helmet
 {
 	author = "Nineball";
 	displayName = "ONI Helmet [FIRESTONE]";
-	hiddenSelectionsTextures[] = {"SFPArmors\data\pierrehead.paa", "SFPArmors\data\pierrevisor.paa"};
+	hiddenSelectionsTextures[] = {"SFPArmors\data\pierre_recon_co.paa", "SFPArmors\data\Krieger_recon_visor_co.paa"};
 };
 
 
@@ -133,5 +133,11 @@ class www_UNSC_CH252D_Helmet_xxx_medic_dp : OPTRE_UNSC_CH252D_Helmet_dp
 	author = "aaa";
 	displayName = "CH252D Helmet (Medic) [xxx]";
 	hiddenSelectionsTextures[] = {"yyy\odst_helmet_xxx_medic_co.paa", "yyy\odst_helmet_visor_xxx_dp_co.paa"};
+};
+class www_UNSC_xxx : OPTRE_UNSC_Recon_Helmet
+{
+	author = "aaa";
+	displayName = "Oni Helmet [xxx]";
+	hiddenSelectionsTextures[] = {"yyy\xxx_Recon_co.paa", "yyy\odst_helmet_visor_co.paa"};
 };
 */

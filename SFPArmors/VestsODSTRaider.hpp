@@ -51,5 +51,5 @@ class SFPA_UNSC_M52D_Armor_Raider_Garand: OPTRE_UNSC_M52D_Armor_Demolitions
 {
 	author = "Nineball";
 	displayName = "M52D Body Armor [Garand]";
-	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_garand_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_garand.paa"};
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_garand_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_garand_co.paa"};
 };

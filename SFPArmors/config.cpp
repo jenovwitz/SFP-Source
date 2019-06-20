@@ -35,6 +35,7 @@ class cfgWeapons
 	class OPTRE_UNSC_CH252D_Helmet;
 	class OPTRE_UNSC_CH252D_Helmet_dp;
 	class OPTRE_UNSC_RECON_Helmet;
+	class OPTRE_UNSC_RECON_Helmet_dp;
 
 	//SFP ODST Vests
 	#include<VestsODSTPhoenix.hpp>

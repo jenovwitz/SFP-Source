@@ -54,11 +54,23 @@ class SFPA_UNSC_M52D_Armor_Talbot : OPTRE_UNSC_M52D_Armor_Rifleman
 	displayName = "M52D Body Armor [Talbot]";
 	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Templar_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\Odst_armor_talbot_co.paa"};
 };
-class SFPA_UNSC_M52D_Armor_Medic_Templar: OPTRE_UNSC_M52D_Armor_Medic
+class SFPA_UNSC_M52D_Armor_Woody: OPTRE_UNSC_M52D_Armor_Medic
 {
 	author = "Talbot";
-	displayName = "M52D Body Armor WOODY (Medic) [Templar]";
+	displayName = "M52D Body Armor [Woody]";
 	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Templar_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_Templar_medic_co.paa"};
+};
+class SFPA_UNSC_M52D_Armor_Travis : OPTRE_UNSC_M52D_Armor_Rifleman
+{
+	author = "Barrera";
+	displayName = "M52D Body Armor [Travis]";
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Templar_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\Odst_armor_travis_co.paa"};
+};
+class SFPA_UNSC_M52D_Armor_Sheppard : OPTRE_UNSC_M52D_Armor_Medic
+{
+	author = "Barrera";
+	displayName = "M52D Body Armor [Sheppard]";
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Phoenix_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\Odst_armor_sheppard_co.paa"};
 };
 
 //ONI
@@ -76,12 +88,5 @@ class SFPA_ONI_M52D_Armor_Sniper_Pierre: OPTRE_UNSC_M52D_Armor_Sniper
 };
 
 //Wildcard
-
-class SFPA_UNSC_M52D_Armor_Scout_Templar: OPTRE_UNSC_M52D_Armor_Scout
-{
-	author = "Timm";
-	displayName = "M52D Body Armor (Scout) [Wildcard]";
-	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Templar_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_Templar_co.paa"};
-};
 
 

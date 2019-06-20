@@ -159,6 +159,30 @@ class SFPA_UNSC_CH252D_Helmet_Sheppard_dp : OPTRE_UNSC_CH252D_Helmet_dp
 	displayName = "CH252D Helmet [Sheppard]";
 	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_sheppard_co.paa", "SFPArmors\data\odst_helmet_Visor_phoenix_co_dp.paa"};
 };
+class SFPA_UNSC_CH252D_Helmet_Wildcard : OPTRE_UNSC_CH252D_Helmet
+{
+	author = "Barrera";
+	displayName = "CH252D Helmet [Wildcard]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_wildcard_co.paa", "SFPArmors\data\odst_helmet_Visor_wildcard_co.paa"};
+};
+class SFPA_UNSC_CH252D_Helmet_Wildcard_dp : OPTRE_UNSC_CH252D_Helmet_dp
+{
+	author = "Barrera";
+	displayName = "CH252D Helmet [Wildcard]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_wildcard_co.paa", "SFPArmors\data\odst_helmet_Visor_dp_ca.paa"};
+};
+class SFPA_UNSC_CH252D_Helmet_Tyrant : OPTRE_UNSC_CH252D_Helmet
+{
+	author = "Barrera";
+	displayName = "CH252D Helmet [Tyrant]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_tyrant_co.paa", "SFPArmors\data\odst_helmet_Visor_dp_co.paa"};
+};
+class SFPA_UNSC_CH252D_Helmet_Tyrant_dp : OPTRE_UNSC_CH252D_Helmet_dp
+{
+	author = "Barrera";
+	displayName = "CH252D Helmet [Tyrant]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_tyrant_co.paa", "SFPArmors\data\odst_helmet_Visor_dp_ca.paa"};
+};
 /* Template
 //xxx
 class www_UNSC_CH252D_Helmet_xxx : OPTRE_UNSC_CH252D_Helmet

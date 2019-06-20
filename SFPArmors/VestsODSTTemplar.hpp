@@ -82,11 +82,50 @@ class SFPA_ONI_M52D_Armor_Rifleman_Krieger: OPTRE_UNSC_M52D_Armor_Rifleman
 };
 class SFPA_ONI_M52D_Armor_Sniper_Pierre: OPTRE_UNSC_M52D_Armor_Sniper
 {
-	author = "Nineball";
+	author = "VB";
 	displayName = "M52D ONI [FIRESTONE]";
 	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\pierre_legs_odst_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\pierre_odst_armor_co.paa"};
 };
 
 //Wildcard
+class SFPA_UNSC_M52D_Armor_Wildcard_Base: OPTRE_UNSC_M52D_Armor_Rifleman
+{
+	author = "Barrera";
+	displayName = "M52D Body Armor (Rifleman) [Wildcard]";
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_wildcard_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_wildcard_co.paa"};
+};
+class SFPA_UNSC_M52D_Armor_Wildcard_D: OPTRE_UNSC_M52D_Armor_Demolitions
+{
+	author = "Barrera";
+	displayName = "M52D Body Armor (Demo) [Wildcard]";
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_wildcard_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_wildcard_co.paa"};
+};
+class SFPA_UNSC_M52D_Armor_Wildcard_S: OPTRE_UNSC_M52D_Armor_Sniper
+{
+	author = "Barrera";
+	displayName = "M52D Body Armor (Sniper) [Wildcard]";
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_wildcard_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_wildcard_co.paa"};
+};
+class SFPA_UNSC_M52D_Armor_Wildcard_M: OPTRE_UNSC_M52D_Armor_Marksman
+{
+	author = "Barrera";
+	displayName = "M52D Body Armor (Marksman) [Wildcard]";
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_wildcard_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_wildcard_co.paa"};
+};
+class SFPA_UNSC_M52D_Armor_Wildcard_SC: OPTRE_UNSC_M52D_Armor_Scout
+{
+	author = "Barrera";
+	displayName = "M52D Body Armor (Scout) [Wildcard]";
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_wildcard_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_wildcard_co.paa"};
+};
+class SFPA_UNSC_M52D_Armor_Wildcard_L: OPTRE_UNSC_M52D_Armor_Light
+{
+	author = "Barrera";
+	displayName = "M52D Body Armor (Light) [Wildcard]";
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_wildcard_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_wildcard_co.paa"};
+};
+
+
+
 
 

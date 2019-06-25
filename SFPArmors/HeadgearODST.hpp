@@ -187,13 +187,13 @@ class SFPA_UNSC_CH252D_Helmet_Woody_medic : OPTRE_UNSC_CH252D_Helmet
 {
 	author = "Talbot";
 	displayName = "CH252D Helmet [Woody]";
-	hiddenSelectionsTextures[] = {"SFPArmors\odst_helmet_Woody_co.paa", "SFPArmors\odst_helmet_visor_Woody.paa"};
+	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_Woody_co.paa", "SFPArmors\data\odst_helmet_visor_Woody.paa"};
 };
 class SFPA_UNSC_CH252D_Helmet_Woody_medic_dp : OPTRE_UNSC_CH252D_Helmet_dp
 {
 	author = "Talbot";
 	displayName = "CH252D Helmet [Woody]";
-	hiddenSelectionsTextures[] = {"SFPArmors\odst_helmet_Woody_co.paa", "SFPArmors\odst_helmet_visor_Woody.paa"};
+	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_Woody_co.paa", "SFPArmors\data\odst_helmet_visor_Woody.paa"};
 };
 
 

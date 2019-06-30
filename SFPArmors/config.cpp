@@ -39,6 +39,7 @@ class cfgWeapons
 	class OPTRE_Weapons_Backpacks;
 	class OPTRE_UNSC_Rucksack;
 	class OPTRE_ILCS_Rucksack_Black;
+	class OPTRE_ANPRC_521_Green
 	class B_Bergen_Base;
 	class ContainerSupply;
 	class B_TacticalPack_blk;

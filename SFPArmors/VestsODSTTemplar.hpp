@@ -72,7 +72,6 @@ class SFPA_UNSC_M52D_Armor_Sheppard : OPTRE_UNSC_M52D_Armor_Medic
 	displayName = "M52D Body Armor [Sheppard]";
 	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Phoenix_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\Odst_armor_sheppard_co.paa"};
 };
-
 //ONI
 class SFPA_ONI_M52D_Armor_Rifleman_Krieger: OPTRE_UNSC_M52D_Armor_Rifleman
 {
@@ -97,7 +96,7 @@ class SFPA_UNSC_M52D_Armor_Wildcard_Base: OPTRE_UNSC_M52D_Armor_Rifleman
 class SFPA_UNSC_M52D_Armor_Wildcard_D: OPTRE_UNSC_M52D_Armor_Demolitions
 {
 	author = "Barrera";
-	displayName = "M52D Body Armor (Demo) [Wildcard]";
+	displayName = "M52D Body Armor (Demolitions) [Wildcard]";
 	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_wildcard_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_wildcard_co.paa"};
 };
 class SFPA_UNSC_M52D_Armor_Wildcard_S: OPTRE_UNSC_M52D_Armor_Sniper

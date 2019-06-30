@@ -10,7 +10,48 @@ class CfgPatches
 		requiredVersion = 1.6;
 		requiredAddons[] = {"A3_Weapons_F", "A3_characters_f_bootcamp", "A3_Characters_F", "OPTRE_Core", "OPTRE_UNSC_Units", "OPTRE_UNSC_Units_Army", "OPTRE_Weapons", "OPTRE_Weapons_Items", "A3_Data_F"};
 		units[] = {};
-		weapons[] = {"SFPA_UNSC_M52D_Armor_Phoenix", "SFPA_UNSC_M52D_Armor_Demolitions_Phoenix", "SFPA_UNSC_M52D_Armor_Sniper_Phoenix", "SFPA_UNSC_M52D_Armor_Medic_Phoenix", "SFPA_UNSC_M52D_Armor_Marksman_Phoenix", "SFPA_UNSC_M52D_Armor_Rifleman_Phoenix", "SFPA_UNSC_M52D_Armor_Scout_Phoenix", "SFPA_UNSC_M52D_Armor_Light_Phoenix", "SFPA_UNSC_M52D_Armor_Raider", "SFPA_UNSC_M52D_Armor_Demolitions_Raider", "SFPA_UNSC_M52D_Armor_Sniper_Raider", "SFPA_UNSC_M52D_Armor_Medic_Raider", "SFPA_UNSC_M52D_Armor_Marksman_Raider", "SFPA_UNSC_M52D_Armor_Rifleman_Raider", "SFPA_UNSC_M52D_Armor_Scout_Raider", "SFPA_UNSC_M52D_Armor_Light_Raider", "SFPA_UNSC_M52D_Armor_Templar", "SFPA_UNSC_M52D_Armor_Demolitions_Templar", "SFPA_UNSC_M52D_Armor_Sniper_Templar", "SFPA_UNSC_M52D_Armor_Medic_Templar", "SFPA_UNSC_M52D_Armor_Marksman_Templar", "SFPA_UNSC_M52D_Armor_Rifleman_Templar", "SFPA_UNSC_M52D_Armor_Scout_Templar", "SFPA_UNSC_M52D_Armor_Light_Templar", "SFPA_UNSC_CH252D_Helmet_Phoenix", "SFPA_UNSC_CH252D_Helmet_Phoenix_dp", "SFPA_UNSC_CH252D_Helmet_Phoenix_medic", "SFPA_UNSC_CH252D_Helmet_Phoenix_medic_dp", "SFPA_UNSC_CH252D_Helmet_Raider", "SFPA_UNSC_CH252D_Helmet_Raider_dp", "SFPA_UNSC_CH252D_Helmet_Raider_medic", "SFPA_UNSC_CH252D_Helmet_Raider_medic_dp", "SFPA_UNSC_CH252D_Helmet_Templar", "SFPA_UNSC_CH252D_Helmet_Templar_dp", "SFPA_UNSC_CH252D_Helmet_Templar_medic", "SFPA_UNSC_CH252D_Helmet_Templar_medic_dp"};
+		weapons[] = {
+			"SFPA_UNSC_M52D_Armor_Phoenix",
+			"SFPA_UNSC_M52D_Armor_Demolitions_Phoenix",
+			"SFPA_UNSC_M52D_Armor_Sniper_Phoenix",
+			"SFPA_UNSC_M52D_Armor_Medic_Phoenix",
+			"SFPA_UNSC_M52D_Armor_Marksman_Phoenix",
+			"SFPA_UNSC_M52D_Armor_Rifleman_Phoenix",
+			"SFPA_UNSC_M52D_Armor_Scout_Phoenix",
+			"SFPA_UNSC_M52D_Armor_Light_Phoenix",
+			"SFPA_UNSC_M52D_Armor_Raider",
+			"SFPA_UNSC_M52D_Armor_Demolitions_Raider",
+			"SFPA_UNSC_M52D_Armor_Sniper_Raider",
+			"SFPA_UNSC_M52D_Armor_Medic_Raider",
+			"SFPA_UNSC_M52D_Armor_Marksman_Raider",
+			"SFPA_UNSC_M52D_Armor_Rifleman_Raider",
+			"SFPA_UNSC_M52D_Armor_Scout_Raider",
+			"SFPA_UNSC_M52D_Armor_Light_Raider",
+			"SFPA_UNSC_M52D_Armor_Templar",
+			"SFPA_UNSC_M52D_Armor_Demolitions_Templar",
+			"SFPA_UNSC_M52D_Armor_Sniper_Templar",
+			"SFPA_UNSC_M52D_Armor_Medic_Templar",
+			"SFPA_UNSC_M52D_Armor_Marksman_Templar",
+			"SFPA_UNSC_M52D_Armor_Rifleman_Templar",
+			"SFPA_UNSC_M52D_Armor_Scout_Templar",
+			"SFPA_UNSC_M52D_Armor_Light_Templar",
+			"SFPA_UNSC_CH252D_Helmet_Phoenix",
+			"SFPA_UNSC_CH252D_Helmet_Phoenix_dp",
+			"SFPA_UNSC_CH252D_Helmet_Phoenix_medic",
+			"SFPA_UNSC_CH252D_Helmet_Phoenix_medic_dp",
+			"SFPA_UNSC_CH252D_Helmet_Raider",
+			"SFPA_UNSC_CH252D_Helmet_Raider_dp",
+			"SFPA_UNSC_CH252D_Helmet_Raider_medic",
+			"SFPA_UNSC_CH252D_Helmet_Raider_medic_dp",
+			"SFPA_UNSC_CH252D_Helmet_Templar",
+			"SFPA_UNSC_CH252D_Helmet_Templar_dp",
+			"SFPA_UNSC_CH252D_Helmet_Templar_medic",
+			"SFPA_UNSC_CH252D_Helmet_Templar_medic_dp",
+			"OPTRE_ANPRC_521_Green",
+			"OPTRE_UNSC_Rucksack",
+			"SFPA_UNSC_Commpack_Wildcard_Lawrence",
+			"SFPA_UNSC_Commpack_Wildcard_Rock"
+		};
 	};
 };
 class cfgWeapons
@@ -37,6 +78,7 @@ class cfgWeapons
 	class OPTRE_UNSC_RECON_Helmet;
 	class OPTRE_UNSC_RECON_Helmet_dp;
 	class OPTRE_UNSC_Rucksack;
+	class OPTRE_ANPRC_521_Green;
 	
 	
 	//SFP ODST Vests
@@ -48,3 +90,10 @@ class cfgWeapons
 	//SFP Backpacks
 	#include<PacksODST.hpp>
 };
+class cfgVehicles
+{
+	class OPTRE_UNSC_Rucksack;
+	class OPTRE_ANPRC_521_Green;
+	//SFP Backpacks
+	#include<PacksODST.hpp>
+}

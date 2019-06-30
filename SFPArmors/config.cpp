@@ -8,7 +8,7 @@ class CfgPatches
 		author = "Timm"; //Configs by Rev!
 		url = "";
 		requiredVersion = 1.6;
-		requiredAddons[] = {"A3_Weapons_F", "A3_characters_f_bootcamp", "A3_Characters_F", "OPTRE_Core", "OPTRE_UNSC_Units", "OPTRE_UNSC_Units_Army"};
+		requiredAddons[] = {"A3_Weapons_F", "A3_characters_f_bootcamp", "A3_Characters_F", "OPTRE_Core", "OPTRE_UNSC_Units", "OPTRE_UNSC_Units_Army", "OPTRE_Weapons", "OPTRE_Weapons_Items"};
 		units[] = {};
 		weapons[] = {"SFPA_UNSC_M52D_Armor_Phoenix", "SFPA_UNSC_M52D_Armor_Demolitions_Phoenix", "SFPA_UNSC_M52D_Armor_Sniper_Phoenix", "SFPA_UNSC_M52D_Armor_Medic_Phoenix", "SFPA_UNSC_M52D_Armor_Marksman_Phoenix", "SFPA_UNSC_M52D_Armor_Rifleman_Phoenix", "SFPA_UNSC_M52D_Armor_Scout_Phoenix", "SFPA_UNSC_M52D_Armor_Light_Phoenix", "SFPA_UNSC_M52D_Armor_Raider", "SFPA_UNSC_M52D_Armor_Demolitions_Raider", "SFPA_UNSC_M52D_Armor_Sniper_Raider", "SFPA_UNSC_M52D_Armor_Medic_Raider", "SFPA_UNSC_M52D_Armor_Marksman_Raider", "SFPA_UNSC_M52D_Armor_Rifleman_Raider", "SFPA_UNSC_M52D_Armor_Scout_Raider", "SFPA_UNSC_M52D_Armor_Light_Raider", "SFPA_UNSC_M52D_Armor_Templar", "SFPA_UNSC_M52D_Armor_Demolitions_Templar", "SFPA_UNSC_M52D_Armor_Sniper_Templar", "SFPA_UNSC_M52D_Armor_Medic_Templar", "SFPA_UNSC_M52D_Armor_Marksman_Templar", "SFPA_UNSC_M52D_Armor_Rifleman_Templar", "SFPA_UNSC_M52D_Armor_Scout_Templar", "SFPA_UNSC_M52D_Armor_Light_Templar", "SFPA_UNSC_CH252D_Helmet_Phoenix", "SFPA_UNSC_CH252D_Helmet_Phoenix_dp", "SFPA_UNSC_CH252D_Helmet_Phoenix_medic", "SFPA_UNSC_CH252D_Helmet_Phoenix_medic_dp", "SFPA_UNSC_CH252D_Helmet_Raider", "SFPA_UNSC_CH252D_Helmet_Raider_dp", "SFPA_UNSC_CH252D_Helmet_Raider_medic", "SFPA_UNSC_CH252D_Helmet_Raider_medic_dp", "SFPA_UNSC_CH252D_Helmet_Templar", "SFPA_UNSC_CH252D_Helmet_Templar_dp", "SFPA_UNSC_CH252D_Helmet_Templar_medic", "SFPA_UNSC_CH252D_Helmet_Templar_medic_dp"};
 	};
@@ -36,11 +36,20 @@ class cfgWeapons
 	class OPTRE_UNSC_CH252D_Helmet_dp;
 	class OPTRE_UNSC_RECON_Helmet;
 	class OPTRE_UNSC_RECON_Helmet_dp;
-
+	class OPTRE_Weapons_Backpacks;
+	class OPTRE_UNSC_Rucksack;
+	class OPTRE_ILCS_Rucksack_Black;
+	class B_Bergen_Base;
+	class ContainerSupply;
+	class B_TacticalPack_blk;
+	
+	
 	//SFP ODST Vests
 	#include<VestsODSTPhoenix.hpp>
 	#include<VestsODSTRaider.hpp>
 	#include<VestsODSTTemplar.hpp>
 	//SFP ODST Helmets
 	#include<HeadgearODST.hpp>
+	//SFP Backpacks
+	#include<PacksODST.hpp>
 };

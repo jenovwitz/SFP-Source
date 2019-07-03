@@ -24,6 +24,7 @@ class SFPA_UNSC_CH252D_Helmet_Phoenix_medic_dp : OPTRE_UNSC_CH252D_Helmet_dp
 	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_Phoenix_medic_co.paa", "SFPArmors\data\odst_helmet_visor_Phoenix_dp_co.paa"};
 };
 
+
 //Raider
 class SFPA_UNSC_CH252D_Helmet_Raider : OPTRE_UNSC_CH252D_Helmet
 {
@@ -49,6 +50,8 @@ class SFPA_UNSC_CH252D_Helmet_Raider_medic_dp : OPTRE_UNSC_CH252D_Helmet_dp
 	displayName = "CH252D Helmet (Medic) [Raider]";
 	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_Raider_medic_co.paa", "SFPArmors\data\ODST_Helmet_Visor_DP_ca.paa"};
 };
+
+
 //Templar
 class SFPA_UNSC_CH252D_Helmet_Templar : OPTRE_UNSC_CH252D_Helmet
 {
@@ -74,6 +77,23 @@ class SFPA_UNSC_CH252D_Helmet_Templar_medic_dp : OPTRE_UNSC_CH252D_Helmet_dp
 	displayName = "CH252D Helmet (Medic) [Templar]";
 	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_Templar_medic_co.paa", "SFPArmors\data\odst_helmet_visor_Templar_dp_co.paa"};
 };
+
+
+//Sparrow
+class SFPA_UNSC_CH252D_Helmet_Sparrow : OPTRE_UNSC_CH252D_Helmet
+{
+	author = "aaa";
+	displayName = "CH252D Helmet [Sparrow]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\sparrow_helmet_co.paa", "SFPArmors\data\sparrow_helmet_visor_co.paa"};
+};
+class SFPA_UNSC_CH252D_Helmet_Sparrow_dp : OPTRE_UNSC_CH252D_Helmet_dp
+{
+	author = "aaa";
+	displayName = "CH252D Helmet [Sparrow]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\sparrow_helmet_co.paa", "SFPArmors\data\ODST_Helmet_Visor_DP_co.paa"};
+};
+
+
 //Custom Helmets
 class SFPA_UNSC_Recon_Prophet : OPTRE_UNSC_Recon_Helmet
 {
@@ -127,13 +147,13 @@ class SFPA_UNSC_CH252D_Helmet_Talbot : OPTRE_UNSC_CH252D_Helmet
 {
 	author = "Talbot";
 	displayName = "CH252D Helmet [Talbot]";
-	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_talbot_co.paa", "SFPArmors\data\odst_helmet_Visor_Templar_co.paa"};
+	hiddenSelectionsTextures[] = {"SFPArmors\data\sparrow_helmet_co_TALBOT.paa", "SFPArmors\data\sparrow_helmet_visor_co.paa"};
 };
 class SFPA_UNSC_CH252D_Helmet_Talbot_dp : OPTRE_UNSC_CH252D_Helmet_dp
 {
 	author = "Talbot";
 	displayName = "CH252D Helmet [Talbot]";
-	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_talbot_co.paa", "SFPArmors\data\odst_helmet_Visor_Templar_dp_co.paa"};
+	hiddenSelectionsTextures[] = {"SFPArmors\data\sparrow_helmet_co_TALBOT.paa", "SFPArmors\data\ODST_Helmet_Visor_dp_ca.paa"};
 };
 class SFPA_UNSC_CH252D_Helmet_Travis : OPTRE_UNSC_CH252D_Helmet
 {

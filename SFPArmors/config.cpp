@@ -77,8 +77,7 @@ class cfgWeapons
 	class OPTRE_UNSC_CH252D_Helmet_dp;
 	class OPTRE_UNSC_RECON_Helmet;
 	class OPTRE_UNSC_RECON_Helmet_dp;
-	class OPTRE_UNSC_Rucksack;
-	class OPTRE_ANPRC_521_Green;
+	class OPTRE_ILCS_Rucksack_Black;
 	
 	
 	//SFP ODST Vests
@@ -92,8 +91,8 @@ class cfgWeapons
 };
 class cfgVehicles
 {
-	class OPTRE_UNSC_Rucksack;
-	class OPTRE_ANPRC_521_Green;
+	class OPTRE_ILCS_Rucksack_Black;
+	class B_Bergen_Base;
 	//SFP Backpacks
 	#include<PacksODST.hpp>
 }

@@ -124,7 +124,10 @@ class SFPA_UNSC_M52D_Armor_Wildcard_L: OPTRE_UNSC_M52D_Armor_Light
 	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_wildcard_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_wildcard_co.paa"};
 };
 
-
-
-
-
+//Sparrow
+class SFPA_UNSC_M52D_Armor_Sparrow: OPTRE_UNSC_M52D_Armor
+{
+	author = "Talbot, Timm";
+	displayName = "M52D Body Armor [Sparrow]";
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\Legs_Sparrow_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\sparrow_armor_co.paa"};
+};

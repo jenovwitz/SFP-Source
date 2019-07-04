@@ -161,7 +161,7 @@ class SFPA_UNSC_CH252D_Helmet_Travis : OPTRE_UNSC_CH252D_Helmet
 	displayName = "CH252D Helmet [Travis]";
 	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_travis_co.paa", "SFPArmors\data\odst_helmet_Visor_travis_co.paa"};
 };
-class SFPA_UNSC_CH252D_Helmet_Travis_DP : OPTRE_UNSC_CH252D_Helmet_dp
+class SFPA_UNSC_CH252D_Helmet_Travis_dp : OPTRE_UNSC_CH252D_Helmet_dp
 {
 	author = "Barrera";
 	displayName = "CH252D Helmet [Travis]";

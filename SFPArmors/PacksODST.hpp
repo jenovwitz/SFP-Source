@@ -8,7 +8,7 @@ class SFP_UNSC_Rucksack : B_Bergen_Base
 		isbackpack=1;
 		scopeArsenal=2;
 		scopeCurator=2;
-		scope=1;
+		scope=2;
 		displayName="SFP Rucksack (Basic)";
 		model="\OPTRE_unsc_units\army\rucksack.p3d";
 		maximumLoad=350;
@@ -32,7 +32,7 @@ class SFP_ANPRC_521_Green : SFP_UNSC_Rucksack
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		scope=1;
+		scope=2;
 		displayName="SFP AN/PRC-521 [Green]";
 		descriptionShort="AN/PRC-521<br>UNSC Long Range Radio<br>25km Effective Range";
 		picture="\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";

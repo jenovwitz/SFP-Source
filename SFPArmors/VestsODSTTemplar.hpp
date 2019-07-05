@@ -49,7 +49,7 @@ class SFPA_UNSC_M52D_Armor_Light_Templar: OPTRE_UNSC_M52D_Armor_Light
 };
 
 //Custom
-class SFPA_UNSC_M52D_Armor_Talbot : OPTRE_UNSC_M52D_Armor_Rifleman
+class SFPA_UNSC_M52D_Armor_Talbot : OPTRE_UNSC_M52D_Armor
 {
 	author = "Talbot";
 	displayName = "M52D Body Armor [Talbot]";
@@ -74,7 +74,7 @@ class SFPA_UNSC_M52D_Armor_Sheppard : OPTRE_UNSC_M52D_Armor_Medic
 	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Phoenix_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\Odst_armor_sheppard_co.paa"};
 };
 
-class SFPA_UNSC_M52D_Armor_Miller : OPTRE_UNSC_M52D_Armor_Rifleman
+class SFPA_UNSC_M52D_Armor_Miller : OPTRE_UNSC_M52D_Armor
 {
 	author = "Talbot";
 	displayName = "M52D Body Armor [Miller]";

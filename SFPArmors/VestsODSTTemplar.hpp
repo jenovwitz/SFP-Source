@@ -53,7 +53,7 @@ class SFPA_UNSC_M52D_Armor_Talbot : OPTRE_UNSC_M52D_Armor_Rifleman
 {
 	author = "Talbot";
 	displayName = "M52D Body Armor [Talbot]";
-	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_Templar_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\sparrow_armor_co.paa"};
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\Legs_Sparrow_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\sparrow_armor_co.paa"};
 };
 class SFPA_UNSC_M52D_Armor_Woody : OPTRE_UNSC_M52D_Armor_Medic
 {

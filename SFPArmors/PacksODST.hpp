@@ -1,16 +1,52 @@
 //Core
-class OPTRE_ILCS_Rucksack_Black;
 class B_Bergen_Base;
-class SFP_UNSC_Rucksack : B_Bergen_Base
+class SFPA_ILCS_Rucksack_Black: B_Bergen_Base
+	{
+		dlc="OPTRE";
+		type = BACKPACK_SLOT;
+		author="Article 2 Studios";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		isbackpack=1;
+		picture="\OPTRE_weapons\backpacks\icons\rucksack_black.paa";
+		displayName="SFP ILCS Rucksack [Black]";
+		model="SFPArmors\data\ODST_ruck.p3d";
+		vehicleClass="OPTRE_UNSC_Backpack_class";
+		allowedSlots[]={901};
+		maximumLoad=350;
+		mass=40;
+		hiddenSelections[]=
+		{
+			"camo1",
+			"AP_Heavy",
+			"biofoam"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"SFPArmors\data\ruck_black_CO.paa"
+		};
+		transportMaxWeapons=10;
+		transportMaxMagazines=100;
+		class DestructionEffects
+		{
+		};
+		class TransportMagazines
+		{
+		};
+		class TransportWeapons
+		{
+		};
+		class TransportItems
+		{
+		};
+	};
+class SFPA_UNSC_Rucksack: SFPA_ILCS_Rucksack_Black
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		isbackpack=1;
-		scopeArsenal=2;
-		scopeCurator=2;
-		scope=2;
-		displayName="SFP Rucksack (Basic)";
-		model="\OPTRE_unsc_units\army\rucksack.p3d";
+		displayName="SFP UNSC Rucksack (Basic)";
+		model="SFPArmors\data\rucksack.p3d";
 		maximumLoad=350;
 		mass=40;
 		hiddenSelections[]=
@@ -23,16 +59,15 @@ class SFP_UNSC_Rucksack : B_Bergen_Base
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"optre_unsc_units\army\data\soft_backpack_co.paa",
+			"SFPArmors\data\soft_backpack_co.paa",
 			""
 		};
 	};
-
-class SFP_ANPRC_521_Green : SFP_UNSC_Rucksack
+	
+class SFPA_ANPRC_521_Green: SFPA_UNSC_Rucksack
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		scope=2;
 		displayName="SFP AN/PRC-521 [Green]";
 		descriptionShort="AN/PRC-521<br>UNSC Long Range Radio<br>25km Effective Range";
 		picture="\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
@@ -47,8 +82,8 @@ class SFP_ANPRC_521_Green : SFP_UNSC_Rucksack
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"optre_unsc_units\army\data\soft_backpack_co.paa",
-			"optre_unsc_units\army\data\commopack_co.paa"
+			"SFPArmors\data\soft_backpack_co.paa",
+			"SFPArmors\data\commopack_co.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
@@ -59,7 +94,7 @@ class SFP_ANPRC_521_Green : SFP_UNSC_Rucksack
 	};
 
 //Custom Backpacks
-class SFPA_UNSC_Commpack_WC_Lawrence : SFP_ANPRC_521_Green
+class SFPA_UNSC_Commpack_WC_Lawrence : SFPA_ANPRC_521_Green
 	{
 		author="Talbot, Article 2 Studios";
 		displayName="AN/PRC-521 WILDCARD CO";
@@ -69,7 +104,7 @@ class SFPA_UNSC_Commpack_WC_Lawrence : SFP_ANPRC_521_Green
 			"SFPArmors\data\CommoPack_WC_blonk_CO.paa"
 		};
 	};
-class SFPA_UNSC_Commpack_WC_Rock : SFP_UNSC_Rucksack
+class SFPA_UNSC_Commpack_WC_Rock : SFPA_UNSC_Rucksack
 	{
 		author="Talbot, Article 2 Studios";
 		displayName="AN/PRC-521 WILDCARD Rock";

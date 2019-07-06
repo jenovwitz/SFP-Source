@@ -91,8 +91,7 @@ class cfgWeapons
 };
 class cfgVehicles
 {
-	class OPTRE_ILCS_Rucksack_Black;
-	class B_Bergen_Base;
+//	class B_Bergen_Base;
 	//SFP Backpacks
 	#include<PacksODST.hpp>
 }

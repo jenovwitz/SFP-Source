@@ -47,8 +47,9 @@ class CfgPatches
 			"SFPA_UNSC_CH252D_Helmet_Templar_dp",
 			"SFPA_UNSC_CH252D_Helmet_Templar_medic",
 			"SFPA_UNSC_CH252D_Helmet_Templar_medic_dp",
-			"OPTRE_ANPRC_521_Green",
-			"OPTRE_UNSC_Rucksack",
+			"SFPA_ANPRC_521_Green",
+			"SFPA_UNSC_Rucksack",
+			"SFPA_ILCS_Rucksack_Black",
 			"SFPA_UNSC_Commpack_Wildcard_Lawrence",
 			"SFPA_UNSC_Commpack_Wildcard_Rock"
 		};

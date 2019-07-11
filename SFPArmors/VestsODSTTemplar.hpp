@@ -84,15 +84,21 @@ class SFPA_UNSC_M52D_Armor_Miller : OPTRE_UNSC_M52D_Armor
 //ONI
 class SFPA_ONI_M52D_Armor_Rifleman_Krieger: OPTRE_UNSC_M52D_Armor_Rifleman
 {
-	author = "Nineball";
+	author = "Barrera";
 	displayName = "M52D ONI [VAMPIRE]";
 	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\Krieger_legs_odst_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\Krieger_odst_armor_co.paa"};
 };
 class SFPA_ONI_M52D_Armor_Sniper_Pierre: OPTRE_UNSC_M52D_Armor_Sniper
 {
-	author = "VB";
+	author = "Barrera";
 	displayName = "M52D ONI [FIRESTONE]";
 	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\pierre_legs_odst_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\pierre_odst_armor_co.paa"};
+};
+class SFPA_ONI_M52D_Armor_Dagaz: OPTRE_UNSC_M52D_Armor_Demolitions
+{
+	author = "Barrera";
+	displayName = "M52D ONI [DAGAZ]";
+	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\legs_odst_dagaz_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\odst_armor_dagaz_co.paa"};
 };
 
 //Wildcard

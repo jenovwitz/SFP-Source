@@ -131,6 +131,18 @@ class SFPA_UNSC_Recon_Pierre_dp : OPTRE_UNSC_Recon_Helmet_dp
 	displayName = "ONI Helmet [FIRESTONE]";
 	hiddenSelectionsTextures[] = {"SFPArmors\data\pierre_recon_co.paa", "SFPArmors\data\recon_visor_ca.paa"};
 };
+class SFPA_UNSC_Recon_Dagaz : OPTRE_UNSC_Recon_Helmet
+{
+	author = "Barrera";
+	displayName = "ONI Helmet [Dagaz]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_dagaz_co.paa", "SFPArmors\data\Dagaz_Recon_Visor_Co.paa"};
+};
+class SFPA_UNSC_Recon_Dagaz_dp : OPTRE_UNSC_Recon_Helmet_dp
+{
+	author = "Barrera";
+	displayName = "ONI Helmet [Dagaz]";
+	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_dagaz_co.paa", "SFPArmors\data\Recon_Visor_ca.paa"};
+};
 class SFPA_UNSC_CH252D_Helmet_Raider_Garand : OPTRE_UNSC_CH252D_Helmet
 {
 	author = "Barrera";

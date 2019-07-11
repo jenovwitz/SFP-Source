@@ -87,12 +87,9 @@ class cfgWeapons
 	#include<VestsODSTTemplar.hpp>
 	//SFP ODST Helmets
 	#include<HeadgearODST.hpp>
-	//SFP Backpacks
-	#include<PacksODST.hpp>
 };
 class cfgVehicles
 {
-//	class B_Bergen_Base;
 	//SFP Backpacks
-	#include<PacksODST.hpp>
-}
+	//#include<backpack/config.cpp>
+};

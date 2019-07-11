@@ -39,8 +39,8 @@ class cfgVehicles
         dlc="OPTRE";
         author="Article 2 Studios";
         scope=2;
-        scopeArsenal=2;
-        scopeCurator=2;
+        scopeArsenal=0;
+        scopeCurator=0;
         isbackpack=1;
         picture="\OPTRE_weapons\backpacks\icons\rucksack_black.paa";
         displayName="SFP ILCS Rucksack [Black]";
@@ -147,16 +147,20 @@ class cfgVehicles
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
-		tf_range=25000;
+		tf_range=35000;
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio=1;
 	};
 
 //Custom Backpacks
+
+//Wildcard
 class SFPA_UNSC_Commpack_WC_Lawrence : Strike_Force_Phoenix_ANPRC_521_Green
 	{
 		author="Talbot, Article 2 Studios";
 		displayName="AN/PRC-521 WILDCARD CO";
+		scopeArsenal=2;
+        scopeCurator=2;
 		hiddenSelectionsTextures[]=
 		{
 			"\SFPArmors\Backpacks\data\soft_backpack_co.paa",
@@ -167,10 +171,99 @@ class SFPA_UNSC_Commpack_WC_Rock : Strike_Force_Phoenix_ANPRC_521_Green
 	{
 		author="Talbot, Article 2 Studios";
 		displayName="AN/PRC-521 WILDCARD Rock";
+		scopeArsenal=2;
+        scopeCurator=2;
 		hiddenSelectionsTextures[]=
 		{
 			"\SFPArmors\Backpacks\data\soft_backpack_co.paa",
 			"\SFPArmors\Backpacks\data\CommoPack_WC_rock_CO.paa"
+		};
+	};
+class SFPA_UNSC_Commpack_WC_Okami : Strike_Force_Phoenix_ANPRC_521_Green
+	{
+		author="Talbot, Article 2 Studios";
+		displayName="AN/PRC-521 WILDCARD Okami";
+		scopeArsenal=2;
+        scopeCurator=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\SFPArmors\Backpacks\data\soft_backpack_co.paa",
+			"\SFPArmors\Backpacks\data\CommoPack_WC_okami_CO.paa"
+		};
+	};
+};
+
+//Sparrow
+class SFPA_UNSC_Commpack_Sparrow_Talbot : Strike_Force_Phoenix_ANPRC_521_Green
+	{
+		author="Talbot, Article 2 Studios";
+		displayName="AN/PRC-521 SPARROW Talbot";
+		scopeArsenal=2;
+        scopeCurator=2;
+		maximumLoad=350;
+		hiddenSelectionsTextures[]=
+		{
+			"\SFPArmors\Backpacks\data\soft_backpack_co.paa",
+			"\SFPArmors\Backpacks\data\CommoPack_SP_talbot_CO.paa"
+		};
+	};
+};
+class SFPA_UNSC_Commpack_Sparrow_Miller : Strike_Force_Phoenix_ANPRC_521_Green
+	{
+		author="Talbot, Article 2 Studios";
+		displayName="AN/PRC-521 SPARROW Miller";
+		scopeArsenal=2;
+        scopeCurator=2;
+		maximumLoad=350;
+		hiddenSelectionsTextures[]=
+		{
+			"\SFPArmors\Backpacks\data\soft_backpack_co.paa",
+			"\SFPArmors\Backpacks\data\CommoPack_SP_miller_CO.paa"
+		};
+	};
+};
+//Phoenix
+class SFPA_UNSC_Commpack_Phoenix : Strike_Force_Phoenix_ANPRC_521_Green
+	{
+		author="Talbot, Article 2 Studios";
+		displayName="AN/PRC-521 Phoenix";
+		scopeArsenal=2;
+        scopeCurator=2;
+		maximumLoad=150;
+		hiddenSelectionsTextures[]=
+		{
+			"\SFPArmors\Backpacks\data\soft_backpack_co.paa",
+			"\SFPArmors\Backpacks\data\CommoPack_Phoenix_CO.paa"
+		};
+	};
+};
+//Templar
+class SFPA_UNSC_Commpack_Templar : Strike_Force_Phoenix_ANPRC_521_Green
+	{
+		author="Talbot, Article 2 Studios";
+		displayName="AN/PRC-521 Templar";
+		scopeArsenal=2;
+        scopeCurator=2;
+		maximumLoad=150;
+		hiddenSelectionsTextures[]=
+		{
+			"\SFPArmors\Backpacks\data\soft_backpack_co.paa",
+			"\SFPArmors\Backpacks\data\CommoPack_templar_CO.paa"
+		};
+	};
+};
+//Raider
+class SFPA_UNSC_Commpack_Raider : Strike_Force_Phoenix_ANPRC_521_Green
+	{
+		author="Talbot, Article 2 Studios";
+		displayName="AN/PRC-521 Raider";
+		scopeArsenal=2;
+        scopeCurator=2;
+		maximumLoad=150;
+		hiddenSelectionsTextures[]=
+		{
+			"\SFPArmors\Backpacks\data\soft_backpack_co.paa",
+			"\SFPArmors\Backpacks\data\CommoPack_raider_CO.paa"
 		};
 	};
 };

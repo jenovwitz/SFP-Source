@@ -82,12 +82,6 @@ class SFPA_UNSC_M52D_Armor_Miller : OPTRE_UNSC_M52D_Armor
 };
 
 //ONI
-class SFPA_ONI_M52D_Armor_Rifleman_Krieger: OPTRE_UNSC_M52D_Armor_Rifleman
-{
-	author = "Barrera";
-	displayName = "M52D ONI [VAMPIRE]";
-	hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", "optre_unsc_units\army\data\armor_odst_co.paa", "SFPArmors\data\Krieger_legs_odst_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa", "SFPArmors\data\Krieger_odst_armor_co.paa"};
-};
 class SFPA_ONI_M52D_Armor_Sniper_Pierre: OPTRE_UNSC_M52D_Armor_Sniper
 {
 	author = "Barrera";

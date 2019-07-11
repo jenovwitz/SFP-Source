@@ -107,18 +107,6 @@ class SFPA_UNSC_Recon_Prophet_dp : OPTRE_UNSC_Recon_Helmet_dp
 	displayName = "ONI Helmet [PROPHET]";
 	hiddenSelectionsTextures[] = {"SFPArmors\data\Phillips_Recon_Co.paa", "SFPArmors\data\Recon_Visor_ca.paa"};
 };
-class SFPA_UNSC_Recon_Krieger : OPTRE_UNSC_Recon_Helmet
-{
-	author = "Barrera";
-	displayName = "ONI Helmet [VAMPIRE]";
-	hiddenSelectionsTextures[] = {"SFPArmors\data\Krieger_Recon_Co.paa", "SFPArmors\data\Krieger_Recon_Visor_Co.paa"};
-};
-class SFPA_UNSC_Recon_Krieger_dp : OPTRE_UNSC_Recon_Helmet_dp
-{
-	author = "Barrera";
-	displayName = "ONI Helmet [VAMPIRE]";
-	hiddenSelectionsTextures[] = {"SFPArmors\data\Krieger_Recon_Co.paa", "SFPArmors\data\Recon_Visor_Ca.paa"};
-};
 class SFPA_UNSC_Recon_Pierre : OPTRE_UNSC_Recon_Helmet
 {
 	author = "Barrera";
@@ -135,13 +123,13 @@ class SFPA_UNSC_Recon_Dagaz : OPTRE_UNSC_Recon_Helmet
 {
 	author = "Barrera";
 	displayName = "ONI Helmet [Dagaz]";
-	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_dagaz_co.paa", "SFPArmors\data\Dagaz_Recon_Visor_Co.paa"};
+	hiddenSelectionsTextures[] = {"SFPArmors\data\dagaz_recon_co.paa", "SFPArmors\data\Dagaz_Recon_Visor_Co.paa"};
 };
 class SFPA_UNSC_Recon_Dagaz_dp : OPTRE_UNSC_Recon_Helmet_dp
 {
 	author = "Barrera";
 	displayName = "ONI Helmet [Dagaz]";
-	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_dagaz_co.paa", "SFPArmors\data\Recon_Visor_ca.paa"};
+	hiddenSelectionsTextures[] = {"SFPArmors\data\dagaz_recon_co.paa", "SFPArmors\data\Recon_Visor_ca.paa"};
 };
 class SFPA_UNSC_CH252D_Helmet_Raider_Garand : OPTRE_UNSC_CH252D_Helmet
 {

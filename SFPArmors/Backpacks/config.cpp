@@ -131,7 +131,7 @@ class cfgVehicles
 class SFPA_UNSC_Commpack_WC_Lawrence : Strike_Force_Phoenix_ANPRC_521_Green
 	{
 		author="Talbot, Article 2 Studios";
-		displayName="AN/PRC-521 WILDCARD CO";
+		displayName="AN/PRC-521 WILDCARD CO [WIP]";
 		scopeArsenal=2;
         scopeCurator=2;
 		hiddenSelectionsTextures[]=
@@ -143,7 +143,7 @@ class SFPA_UNSC_Commpack_WC_Lawrence : Strike_Force_Phoenix_ANPRC_521_Green
 class SFPA_UNSC_Commpack_WC_Rock : Strike_Force_Phoenix_ANPRC_521_Green
 	{
 		author="Talbot, Article 2 Studios";
-		displayName="AN/PRC-521 WILDCARD Rock";
+		displayName="AN/PRC-521 WILDCARD Rock [WIP]";
 		scopeArsenal=2;
         scopeCurator=2;
 		hiddenSelectionsTextures[]=
@@ -155,7 +155,7 @@ class SFPA_UNSC_Commpack_WC_Rock : Strike_Force_Phoenix_ANPRC_521_Green
 class SFPA_UNSC_Commpack_WC_Okami : Strike_Force_Phoenix_ANPRC_521_Green
 	{
 		author="Talbot, Article 2 Studios";
-		displayName="AN/PRC-521 WILDCARD Okami";
+		displayName="AN/PRC-521 WILDCARD Okami [WIP]";
 		scopeArsenal=2;
         scopeCurator=2;
 		hiddenSelectionsTextures[]=
@@ -169,7 +169,7 @@ class SFPA_UNSC_Commpack_WC_Okami : Strike_Force_Phoenix_ANPRC_521_Green
 class SFPA_UNSC_Commpack_Sparrow_Talbot : Strike_Force_Phoenix_ANPRC_521_Green
 	{
 		author="Talbot, Article 2 Studios";
-		displayName="AN/PRC-521 SPARROW Talbot";
+		displayName="AN/PRC-521 SPARROW Talbot [WIP]";
 		scopeArsenal=2;
         scopeCurator=2;
 		maximumLoad=350;
@@ -183,7 +183,7 @@ class SFPA_UNSC_Commpack_Sparrow_Talbot : Strike_Force_Phoenix_ANPRC_521_Green
 class SFPA_UNSC_Commpack_Sparrow_Miller : Strike_Force_Phoenix_ANPRC_521_Green
 	{
 		author="Talbot, Article 2 Studios";
-		displayName="AN/PRC-521 SPARROW Miller";
+		displayName="AN/PRC-521 SPARROW Miller [WIP]";
 		scopeArsenal=2;
         scopeCurator=2;
 		maximumLoad=350;
@@ -198,7 +198,7 @@ class SFPA_UNSC_Commpack_Sparrow_Miller : Strike_Force_Phoenix_ANPRC_521_Green
 class SFPA_UNSC_Commpack_Phoenix : Strike_Force_Phoenix_ANPRC_521_Green
 	{
 		author="Talbot, Article 2 Studios";
-		displayName="AN/PRC-521 Phoenix";
+		displayName="AN/PRC-521 Phoenix [WIP]";
 		scopeArsenal=2;
         scopeCurator=2;
 		maximumLoad=150;
@@ -213,7 +213,7 @@ class SFPA_UNSC_Commpack_Phoenix : Strike_Force_Phoenix_ANPRC_521_Green
 class SFPA_UNSC_Commpack_Templar : Strike_Force_Phoenix_ANPRC_521_Green
 	{
 		author="Talbot, Article 2 Studios";
-		displayName="AN/PRC-521 Templar";
+		displayName="AN/PRC-521 Templar [WIP]";
 		scopeArsenal=2;
         scopeCurator=2;
 		maximumLoad=150;
@@ -228,7 +228,7 @@ class SFPA_UNSC_Commpack_Templar : Strike_Force_Phoenix_ANPRC_521_Green
 class SFPA_UNSC_Commpack_Raider : Strike_Force_Phoenix_ANPRC_521_Green
 	{
 		author="Talbot, Article 2 Studios";
-		displayName="AN/PRC-521 Raider";
+		displayName="AN/PRC-521 Raider [WIP]";
 		scopeArsenal=2;
         scopeCurator=2;
 		maximumLoad=150;

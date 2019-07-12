@@ -138,7 +138,7 @@ class cfgVehicles {
   };
   
   //Sparrow
-  class SFPA_UNSC_Commpack_Sparrow_Talbot: Strike_Force_Phoenix_ANPRC_521_Green {
+  class SFPA_UNSC_Commpack_Sparrow: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
     displayName = "AN/PRC-521A2 SPARROW Talbot [WIP]";
     scopeArsenal = 2;
@@ -146,18 +146,7 @@ class cfgVehicles {
     maximumLoad = 350;
     hiddenSelectionsTextures[] = {
       "\SFPArmors\Backpacks\data\soft_backpack_co.paa",
-      "\SFPArmors\Backpacks\data\CommoPack_SP_talbot_CO.paa"
-    };
-  };
-  class SFPA_UNSC_Commpack_Sparrow_Miller: Strike_Force_Phoenix_ANPRC_521_Green {
-    author = "Talbot, Article 2 Studios";
-    displayName = "AN/PRC-521A2 SPARROW Miller [WIP]";
-    scopeArsenal = 2;
-    scopeCurator = 2;
-    maximumLoad = 350;
-    hiddenSelectionsTextures[] = {
-      "\SFPArmors\Backpacks\data\soft_backpack_co.paa",
-      "\SFPArmors\Backpacks\data\CommoPack_SP_miller_CO.paa"
+      "\SFPArmors\Backpacks\data\CommoPack_SPARROW_CO.paa"
     };
   };
   

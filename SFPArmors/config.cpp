@@ -1,4 +1,4 @@
-#define _ARMA_
+	#define _ARMA_
 
 class CfgPatches
 {
@@ -11,6 +11,7 @@ class CfgPatches
 		requiredAddons[] = {"A3_Weapons_F", "A3_characters_f_bootcamp", "A3_Characters_F", "OPTRE_Core", "OPTRE_UNSC_Units", "OPTRE_UNSC_Units_Army", "OPTRE_Weapons", "OPTRE_Weapons_Items", "A3_Data_F"};
 		units[] = {};
 		weapons[] = {
+			"OPTRE_UNSC_M52A_Armor1_WDL",
 			"SFPA_UNSC_M52D_Armor_Phoenix",
 			"SFPA_UNSC_M52D_Armor_Demolitions_Phoenix",
 			"SFPA_UNSC_M52D_Armor_Sniper_Phoenix",
@@ -65,6 +66,7 @@ class cfgWeapons
 	class Uniform_Base;
 	class HitpointsProtectionInfo;
 
+	class OPTRE_UNSC_M52A_Armor1_WDL;
 	class OPTRE_UNSC_M52D_Armor;
 	class OPTRE_UNSC_M52D_Armor_Demolitions;
 	class OPTRE_UNSC_M52D_Armor_Sniper;

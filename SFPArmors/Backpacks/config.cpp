@@ -82,7 +82,7 @@ class cfgVehicles {
     dlc = "OPTRE";
     author = "Article 2 Studios";
     displayName = "SFP AN/PRC-521 [Green]";
-    descriptionShort = "AN/PRC-521<br>UNSC Long Range Radio<br>25km Effective Range";
+    descriptionShort = "AN/PRC-521<br>UNSC Long Range Radio<br>35km Effective Range";
     picture = "\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
     maximumLoad = 150;
     mass = 50;
@@ -108,7 +108,7 @@ class cfgVehicles {
   //Wildcard
   class SFPA_UNSC_Commpack_WC_Lawrence: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
-    displayName = "AN/PRC-521A2 WILDCARD CO [WIP]";
+    displayName = "AN/PRC-521A2 [WILDCARD] CO";
     scopeArsenal = 2;
     scopeCurator = 2;
     hiddenSelectionsTextures[] = {
@@ -118,7 +118,7 @@ class cfgVehicles {
   };
   class SFPA_UNSC_Commpack_WC_Rock: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
-    displayName = "AN/PRC-521A2 WILDCARD Rock [WIP]";
+    displayName = "AN/PRC-521A2 [WILDCARD] Rock";
     scopeArsenal = 2;
     scopeCurator = 2;
     hiddenSelectionsTextures[] = {
@@ -128,7 +128,7 @@ class cfgVehicles {
   };
   class SFPA_UNSC_Commpack_WC_Okami: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
-    displayName = "AN/PRC-521A2 WILDCARD Okami [WIP]";
+    displayName = "AN/PRC-521A2 [WILDCARD] Okami";
     scopeArsenal = 2;
     scopeCurator = 2;
     hiddenSelectionsTextures[] = {
@@ -140,10 +140,32 @@ class cfgVehicles {
   //Sparrow
   class SFPA_UNSC_Commpack_Sparrow: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
-    displayName = "AN/PRC-521A2 SPARROW Talbot [WIP]";
+    displayName = "AN/PRC-521A2 Biofoam [Sparrow]";
     scopeArsenal = 2;
     scopeCurator = 2;
     maximumLoad = 350;
+	hiddenSelections[] = {
+      "camo",
+      "camo2",
+      "B_Addons"
+    };
+    hiddenSelectionsTextures[] = {
+      "\SFPArmors\Backpacks\data\soft_backpack_co.paa",
+      "\SFPArmors\Backpacks\data\CommoPack_SPARROW_CO.paa"
+    };
+  };
+  class SFPA_UNSC_Commpack_Sparrow_biofoam: Strike_Force_Phoenix_ANPRC_521_Green {
+    author = "Talbot, Article 2 Studios";
+    displayName = "AN/PRC-521A2 [Sparrow]";
+    scopeArsenal = 2;
+    scopeCurator = 2;
+    maximumLoad = 350;
+	hiddenSelections[] = {
+      "camo",
+      "camo2",
+	  "B_medic",
+      "B_Addons"
+    };
     hiddenSelectionsTextures[] = {
       "\SFPArmors\Backpacks\data\soft_backpack_co.paa",
       "\SFPArmors\Backpacks\data\CommoPack_SPARROW_CO.paa"
@@ -153,7 +175,7 @@ class cfgVehicles {
   //Phoenix
   class SFPA_UNSC_Commpack_Phoenix: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
-    displayName = "AN/PRC-521A2 Phoenix [WIP]";
+    displayName = "AN/PRC-521A2 [Phoenix] [WIP]";
     scopeArsenal = 2;
     scopeCurator = 2;
     maximumLoad = 150;
@@ -166,7 +188,7 @@ class cfgVehicles {
   //Templar
   class SFPA_UNSC_Commpack_Templar: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
-    displayName = "AN/PRC-521A2 Templar [WIP]";
+    displayName = "AN/PRC-521A2 [Templar] [WIP]";
     scopeArsenal = 2;
     scopeCurator = 2;
     maximumLoad = 150;
@@ -179,7 +201,7 @@ class cfgVehicles {
   //Raider
   class SFPA_UNSC_Commpack_Raider: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
-    displayName = "AN/PRC-521A2 Raider [WIP]";
+    displayName = "AN/PRC-521A2 [Raider] [WIP]";
     scopeArsenal = 2;
     scopeCurator = 2;
     maximumLoad = 150;

@@ -89,7 +89,7 @@
 
 	//Custom
 	class SFPA_UNSC_M52D_Armor_Talbot: OPTRE_UNSC_M52D_Armor {
-	  author = "Talbot";
+	  author = "Talbot, Timm";
 	  displayName = "M52D Body Armor [Talbot]";
 	  hiddenSelectionsTextures[] = {
 	    "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
@@ -100,7 +100,7 @@
 	  };
 	};
 	class SFPA_UNSC_M52D_Armor_Woody: OPTRE_UNSC_M52D_Armor_Medic {
-	  author = "Talbot";
+	  author = "Talbot, Timm";
 	  displayName = "M52D Body Armor [Woody]";
 	  hiddenSelectionsTextures[] = {
 	    "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
@@ -134,7 +134,7 @@
 	};
 
 	class SFPA_UNSC_M52D_Armor_Miller: OPTRE_UNSC_M52D_Armor {
-	  author = "Talbot";
+	  author = "Talbot, Timm";
 	  displayName = "M52D Body Armor [Miller]";
 	  hiddenSelectionsTextures[] = {
 	    "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",

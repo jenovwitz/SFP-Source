@@ -90,6 +90,4 @@ class cfgWeapons
 };
 class cfgVehicles
 {
-	//SFP Backpacks
-	//#include<backpack/config.cpp>
 };

@@ -96,33 +96,6 @@ class cfgVehicles
 			""
 		};
 	};
-	/*
-	class Strike_Force_Phoenix_ANPRC_515: OPTRE_ILCS_Rucksack_Black
-    {
-        dlc="OPTRE";
-        author="Article 2 Studios & Talbot";
-        picture="\OPTRE_weapons\backpacks\icons\como_pack.paa";
-        displayName="SFP Cambridge - 515";
-        descriptionShort="Cambridge -515<br>ODST Long Range Radio<br>25km Effective Range";
-        model="\OPTRE_weapons\backpacks\como_ruck.p3d";
-        maximumLoad=100;
-        mass=40;
-        hiddenSelections[]=
-        {
-            "camo1"
-        };
-        hiddenSelectionsTextures[]=
-        {
-            "Path\ToTextures\data\Texturefile.paa"
-        };
-        tf_encryptionCode="tf_west_radio_code";
-        tf_dialog="rt1523g_radio_dialog";
-        tf_subtype="digital_lr";
-        tf_range=25000;
-        tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
-        tf_hasLRradio=1;
-    };
-	*/
 	class Strike_Force_Phoenix_ANPRC_521_Green: Strike_Force_Phoenix_UNSC_Rucksack
 	{
 		dlc="OPTRE";
@@ -191,7 +164,6 @@ class SFPA_UNSC_Commpack_WC_Okami : Strike_Force_Phoenix_ANPRC_521_Green
 			"\SFPArmors\Backpacks\data\CommoPack_WC_okami_CO.paa"
 		};
 	};
-};
 
 //Sparrow
 class SFPA_UNSC_Commpack_Sparrow_Talbot : Strike_Force_Phoenix_ANPRC_521_Green
@@ -207,7 +179,7 @@ class SFPA_UNSC_Commpack_Sparrow_Talbot : Strike_Force_Phoenix_ANPRC_521_Green
 			"\SFPArmors\Backpacks\data\CommoPack_SP_talbot_CO.paa"
 		};
 	};
-};
+
 class SFPA_UNSC_Commpack_Sparrow_Miller : Strike_Force_Phoenix_ANPRC_521_Green
 	{
 		author="Talbot, Article 2 Studios";
@@ -221,7 +193,7 @@ class SFPA_UNSC_Commpack_Sparrow_Miller : Strike_Force_Phoenix_ANPRC_521_Green
 			"\SFPArmors\Backpacks\data\CommoPack_SP_miller_CO.paa"
 		};
 	};
-};
+
 //Phoenix
 class SFPA_UNSC_Commpack_Phoenix : Strike_Force_Phoenix_ANPRC_521_Green
 	{
@@ -236,7 +208,7 @@ class SFPA_UNSC_Commpack_Phoenix : Strike_Force_Phoenix_ANPRC_521_Green
 			"\SFPArmors\Backpacks\data\CommoPack_Phoenix_CO.paa"
 		};
 	};
-};
+
 //Templar
 class SFPA_UNSC_Commpack_Templar : Strike_Force_Phoenix_ANPRC_521_Green
 	{
@@ -251,7 +223,7 @@ class SFPA_UNSC_Commpack_Templar : Strike_Force_Phoenix_ANPRC_521_Green
 			"\SFPArmors\Backpacks\data\CommoPack_templar_CO.paa"
 		};
 	};
-};
+
 //Raider
 class SFPA_UNSC_Commpack_Raider : Strike_Force_Phoenix_ANPRC_521_Green
 	{

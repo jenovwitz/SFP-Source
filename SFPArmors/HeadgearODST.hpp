@@ -311,6 +311,22 @@ class SFPA_UNSC_CH252D_Helmet_Char_dp: OPTRE_UNSC_CH252D_Helmet_dp {
     "SFPArmors\data\odst_helmet_Visor_phoenix_co_dp.paa"
   };
 };
+class SFPA_UNSC_CH252D_Helmet_Vekt: OPTRE_UNSC_CH252D_Helmet {
+  author = "Talbot";
+  displayName = "CH252D Helmet [Vektorous]";
+  hiddenSelectionsTextures[] = {
+    "SFPArmors\data\Phoenix_helmet_VEKT.paa",
+    "SFPArmors\data\Phoenix_Helmet_Visor_VEKT.paa"
+  };
+};
+class SFPA_UNSC_CH252D_Helmet_Vekt_dp: OPTRE_UNSC_CH252D_Helmet_dp {
+  author = "Talbot";
+  displayName = "CH252D Helmet [Vektorous]";
+  hiddenSelectionsTextures[] = {
+    "SFPArmors\data\Phoenix_helmet_VEKT.paa.paa",
+    "SFPArmors\data\odst_helmet_Visor_phoenix_co_dp.paa"
+  };
+};
 
 
 /* Template

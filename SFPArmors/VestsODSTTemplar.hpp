@@ -233,6 +233,28 @@
 	    "SFPArmors\data\sparrow_armor_co.paa"
 	  };
 	};
+	class SFPA_UNSC_M52D_Armor_Char: OPTRE_UNSC_M52D_Armor {
+	  author = "Talbot, Timm";
+	  displayName = "M52D Body Armor [Char]";
+	  hiddenSelectionsTextures[] = {
+	    "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+	    "optre_unsc_units\army\data\armor_odst_co.paa",
+	    "SFPArmors\data\legs_odst_Phoenix_co.paa",
+	    "optre_unsc_units\army\data\ghillie_woodland_co.paa",
+	    "SFPArmors\data\Phoenix_armor_CHAR.paa"
+	  };
+	};
+	class SFPA_UNSC_M52D_Armor_Vekt: OPTRE_UNSC_M52D_Armor_Demolitions {
+	  author = "Talbot, Timm";
+	  displayName = "M52D Body Armor [Vektorous]";
+	  hiddenSelectionsTextures[] = {
+	    "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+	    "optre_unsc_units\army\data\armor_odst_co.paa",
+	    "SFPArmors\data\legs_odst_Phoenix_co.paa",
+	    "optre_unsc_units\army\data\ghillie_woodland_co.paa",
+	    "SFPArmors\data\Phoenix_armor_VEKT.paa"
+	  };
+	};
 
 	//ONI
 	class SFPA_ONI_M52D_Armor_Sniper_Pierre: OPTRE_UNSC_M52D_Armor_Sniper {

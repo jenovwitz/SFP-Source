@@ -90,7 +90,8 @@ class cfgVehicles {
       "camo",
       "camo2",
       "B_Medic",
-      "B_Addons"
+      "B_Addons",
+	  "AP_Heavy"
     };
     hiddenSelectionsTextures[] = {
       "\SFPArmors\Backpacks\data\soft_backpack_co.paa",

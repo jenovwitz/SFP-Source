@@ -137,9 +137,19 @@ class cfgVehicles {
       "\SFPArmors\Backpacks\data\CommoPack_WC_okami_CO.paa"
     };
   };
+  class SFPA_UNSC_Commpack_WC_Haas: Strike_Force_Phoenix_ANPRC_521_Green {
+    author = "Talbot, Article 2 Studios";
+    displayName = "AN/PRC-521A2 [WILDCARD] Haas";
+    scopeArsenal = 2;
+    scopeCurator = 2;
+    hiddenSelectionsTextures[] = {
+      "\SFPArmors\Backpacks\data\soft_backpack_co.paa",
+      "\SFPArmors\Backpacks\data\CommoPack_WC_haas_CO.paa"
+    };
+  };
   
   //Sparrow
-  class SFPA_UNSC_Commpack_Sparrow: Strike_Force_Phoenix_ANPRC_521_Green {
+  class SFPA_UNSC_Commpack_Sparrow_biofoam: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
     displayName = "AN/PRC-521A2 Biofoam [Sparrow]";
     scopeArsenal = 2;
@@ -155,7 +165,7 @@ class cfgVehicles {
       "\SFPArmors\Backpacks\data\CommoPack_SPARROW_CO.paa"
     };
   };
-  class SFPA_UNSC_Commpack_Sparrow_biofoam: Strike_Force_Phoenix_ANPRC_521_Green {
+  class SFPA_UNSC_Commpack_Sparrow: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
     displayName = "AN/PRC-521A2 [Sparrow]";
     scopeArsenal = 2;

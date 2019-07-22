@@ -91,7 +91,7 @@ class cfgVehicles {
       "camo2",
       "B_Medic",
       "B_Addons",
-	  "AP_Heavy"
+      "AP_Heavy"
     };
     hiddenSelectionsTextures[] = {
       "\SFPArmors\Backpacks\data\soft_backpack_co.paa",
@@ -104,7 +104,7 @@ class cfgVehicles {
     tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
     tf_hasLRradio = 1;
   };
- 
+
   //Custom Backpacks
   //Wildcard
   class SFPA_UNSC_Commpack_WC_Lawrence: Strike_Force_Phoenix_ANPRC_521_Green {
@@ -139,7 +139,7 @@ class cfgVehicles {
   };
   class SFPA_UNSC_Commpack_WC_Haas: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
-    displayName = "AN/PRC-521A2 [WILDCARD] Haas";
+    displayName = "AN/PRC-521A2 [WILDCARD] XO";
     scopeArsenal = 2;
     scopeCurator = 2;
     hiddenSelectionsTextures[] = {
@@ -147,15 +147,15 @@ class cfgVehicles {
       "\SFPArmors\Backpacks\data\CommoPack_WC_haas_CO.paa"
     };
   };
-  
+
   //Sparrow
   class SFPA_UNSC_Commpack_Sparrow_biofoam: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
-    displayName = "AN/PRC-521A2 Biofoam [Sparrow]";
+    displayName = "AN/PRC-521A2 [Sparrow] Biofoam";
     scopeArsenal = 2;
     scopeCurator = 2;
     maximumLoad = 350;
-	hiddenSelections[] = {
+    hiddenSelections[] = {
       "camo",
       "camo2",
       "B_Addons"
@@ -171,10 +171,10 @@ class cfgVehicles {
     scopeArsenal = 2;
     scopeCurator = 2;
     maximumLoad = 350;
-	hiddenSelections[] = {
+    hiddenSelections[] = {
       "camo",
       "camo2",
-	  "B_medic",
+      "B_medic",
       "B_Addons"
     };
     hiddenSelectionsTextures[] = {
@@ -182,7 +182,7 @@ class cfgVehicles {
       "\SFPArmors\Backpacks\data\CommoPack_SPARROW_CO.paa"
     };
   };
-  
+
   //Phoenix
   class SFPA_UNSC_Commpack_Phoenix: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";

@@ -1,5 +1,4 @@
-	#
-	define _ARMA_
+	#define _ARMA_
 
 	class CfgPatches {
 	  class SFPArmors {

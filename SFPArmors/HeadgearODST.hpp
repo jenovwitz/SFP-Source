@@ -228,6 +228,41 @@ class SFPA_UNSC_CH252D_Helmet_Miller_dp : OPTRE_UNSC_CH252D_Helmet_dp
 	hiddenSelectionsTextures[] = {"SFPArmors\data\sparrow_helmet_co_MILLER.paa", "SFPArmors\data\ODST_Helmet_Visor_dp_ca.paa"};
 };
 
+class SFPA_UNSC_CH252D_Helmet_Char: OPTRE_UNSC_CH252D_Helmet {
+  author = "Talbot";
+  displayName = "CH252D Helmet [Char]";
+  hiddenSelectionsTextures[] = {
+    "SFPArmors\data\Phoenix_helmet_CHAR.paa",
+    "SFPArmors\data\odst_helmet_Visor_phoenix_co.paa"
+  };
+};
+class SFPA_UNSC_CH252D_Helmet_Char_dp: OPTRE_UNSC_CH252D_Helmet_dp {
+  author = "Talbot";
+  displayName = "CH252D Helmet [Char]";
+  hiddenSelectionsTextures[] = {
+    "SFPArmors\data\Phoenix_helmet_CHAR.paa.paa",
+    "SFPArmors\data\odst_helmet_Visor_phoenix_co_dp.paa"
+  };
+};
+
+class SFPA_UNSC_CH252D_Helmet_Vekt: OPTRE_UNSC_CH252D_Helmet {
+  author = "Talbot";
+  displayName = "CH252D Helmet [Vektorous]";
+  hiddenSelectionsTextures[] = {
+    "SFPArmors\data\Phoenix_helmet_VEKT.paa",
+    "SFPArmors\data\Phoenix_Helmet_Visor_VEKT.paa"
+  };
+};
+
+class SFPA_UNSC_CH252D_Helmet_Vekt_dp: OPTRE_UNSC_CH252D_Helmet_dp {
+  author = "Talbot";
+  displayName = "CH252D Helmet [Vektorous]";
+  hiddenSelectionsTextures[] = {
+    "SFPArmors\data\Phoenix_helmet_VEKT.paa.paa",
+    "SFPArmors\data\odst_helmet_Visor_phoenix_co_dp.paa"
+  };
+};
+
 
 /* Template
 //xxx

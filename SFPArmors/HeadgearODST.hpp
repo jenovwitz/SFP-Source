@@ -262,20 +262,20 @@ class SFPA_UNSC_CH252D_Helmet_Tyrant_dp : OPTRE_UNSC_CH252D_Helmet_dp
 	hiddenSelectionsTextures[] = {"SFPArmors\data\odst_helmet_tyrant_co.paa", "SFPArmors\data\odst_helmet_Visor_dp_ca.paa"};
 };
 */
-class SFPA_UNSC_CH252D_Helmet_Woody_medic: OPTRE_UNSC_CH252D_Helmet {
+class SFPA_UNSC_CH252D_Helmet_Woody: OPTRE_UNSC_CH252D_Helmet {
   author = "Talbot";
-  displayName = "CH252D Helmet [Templar] Woody";
+  displayName = "CH252D Helmet [Sparrow] Woody";
   hiddenSelectionsTextures[] = {
-    "SFPArmors\data\odst_helmet_Woody_co.paa",
-    "SFPArmors\data\odst_helmet_visor_Woody.paa"
+    "SFPArmors\data\sparrow_helmet_co_WOODY.paa",
+    "SFPArmors\data\sparrow_helmet_visor_co.paa"
   };
 };
-class SFPA_UNSC_CH252D_Helmet_Woody_medic_dp: OPTRE_UNSC_CH252D_Helmet_dp {
+class SFPA_UNSC_CH252D_Helmet_Woody_dp: OPTRE_UNSC_CH252D_Helmet_dp {
   author = "Talbot";
-  displayName = "CH252D Helmet [Templar] Woody";
+  displayName = "CH252D Helmet [Sparrow] Woody";
   hiddenSelectionsTextures[] = {
-    "SFPArmors\data\odst_helmet_Woody_co.paa",
-    "SFPArmors\data\odst_helmet_visor_Woody.paa"
+    "SFPArmors\data\sparrow_helmet_co_WOODY.paa",
+    "SFPArmors\data\sparrow_helmet_visor_co.paa"
   };
 };
 class SFPA_UNSC_CH252D_Helmet_Miller: OPTRE_UNSC_CH252D_Helmet {

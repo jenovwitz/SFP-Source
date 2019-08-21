@@ -1,4 +1,4 @@
-	class SFPA_UNSC_M52D_Armor_Templar: OPTRE_UNSC_M52D_Armor {
+ass SFPA_UNSC_M52D_Armor_Templar: OPTRE_UNSC_M52D_Armor {
 	  author = "Timm";
 	  displayName = "M52D Body Armor (Basic) [Templar]";
 	  hiddenSelectionsTextures[] = {
@@ -338,7 +338,17 @@
 	    };
 	  };
 	};
-
+	class SFPA_UNSC_M52D_Armor_Marksman_Ryan: OPTRE_UNSC_M52D_Armor_Marksman {
+	  author = "Ryan (Tander)";
+	  displayName = "M52D Body Armor [Templar] Ryan";
+	  hiddenSelectionsTextures[] = {
+	    "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+	    "optre_unsc_units\army\data\armor_odst_co.paa",
+	    "SFPArmors\data\legs_odst_Templar_co.paa",
+	    "optre_unsc_units\army\data\ghillie_woodland_co.paa",
+	    "SFPArmors\data\odst_armor_Ryan_co.paa"
+	  };
+	};
 	//ONI
 	class SFPA_ONI_M52D_Armor_Sniper_Pierre: OPTRE_UNSC_M52D_Armor_Sniper {
 	  author = "Barrera";

@@ -100,6 +100,7 @@ class SFPA_UNSC_CH252D_Helmet_Templar_medic_dp: OPTRE_UNSC_CH252D_Helmet_dp {
   };
 };
 
+
 //Sparrow
 class SFPA_UNSC_CH252D_Helmet_Sparrow: OPTRE_UNSC_CH252D_Helmet {
   author = "aaa";
@@ -328,6 +329,14 @@ class SFPA_UNSC_CH252D_Helmet_Vekt_dp: OPTRE_UNSC_CH252D_Helmet_dp {
     "SFPArmors\data\Phoenix_helmet_VEKT.paa",
     "SFPArmors\data\odst_helmet_Visor_phoenix_co_dp.paa"
   };
+};
+class SFPA_UNSC_CH252D_Helmet_Ryan: OPTRE_UNSC_CH252D_Helmet {
+  author = "Timm, Ryan (Tander)";
+  displayName = "CH252D Helmet [Templar] Ryan";
+  hiddenSelectionsTextures[] = {
+    "SFPArmors\data\odst_helmet_Ryan_co.paa",
+    "SFPArmors\data\odst_helmet_visor_Templar_co.paa"
+	};
 };
 
 /* Template

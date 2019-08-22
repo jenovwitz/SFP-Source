@@ -1,4 +1,4 @@
-ass SFPA_UNSC_M52D_Armor_Templar: OPTRE_UNSC_M52D_Armor {
+	class SFPA_UNSC_M52D_Armor_Templar: OPTRE_UNSC_M52D_Armor {
 	  author = "Timm";
 	  displayName = "M52D Body Armor (Basic) [Templar]";
 	  hiddenSelectionsTextures[] = {

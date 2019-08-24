@@ -339,6 +339,15 @@ class SFPA_UNSC_CH252D_Helmet_Ryan: OPTRE_UNSC_CH252D_Helmet {
 	};
 };
 
+class SFPA_UNSC_CH252D_Helmet_Ryan: OPTRE_UNSC_CH252D_Helmet_dp {
+  author = "Timm, Ryan (Tander)";
+  displayName = "CH252D Helmet [Templar] Ryan";
+  hiddenSelectionsTextures[] = {
+    "SFPArmors\data\odst_helmet_Ryan_co.paa",
+    "SFPArmors\data\ODST_Helmet_Visor_dp_ca.paa"
+	};
+};
+
 /* Template
 //xxx
 class www_UNSC_CH252D_Helmet_xxx : OPTRE_UNSC_CH252D_Helmet

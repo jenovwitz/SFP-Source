@@ -322,7 +322,7 @@ class SFPA_UNSC_CH252D_Helmet_Vekt: OPTRE_UNSC_CH252D_Helmet {
   displayName = "CH252D Helmet [Phoenix] Vektorous";
   hiddenSelectionsTextures[] = {
     "SFPArmors\data\Phoenix_helmet_VEKT.paa",
-    "SFPArmors\data\Phoenix_Helmet_Visor_VEKT.paa"
+    "SFPArmors\data\odst_helmet_Visor_phoenix_co_dp.paa"
   };
 };
 

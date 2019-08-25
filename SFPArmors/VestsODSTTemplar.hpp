@@ -283,6 +283,7 @@
 	    };
 	  };
 	};
+/*
 	class SFPA_UNSC_M52D_Armor_Woody: OPTRE_UNSC_M52D_Armor_Medic {
 	  author = "Talbot, Timm";
 	  displayName = "M52D Body Armor [Templar] Woody";
@@ -294,6 +295,7 @@
 	    "SFPArmors\data\odst_armor_Woody_co.paa"
 	  };
 	};
+*/
 	class SFPA_UNSC_M52D_Armor_Travis: OPTRE_UNSC_M52D_Armor_Rifleman {
 	  author = "Barrera";
 	  displayName = "M52D Body Armor [Templar] Travis";

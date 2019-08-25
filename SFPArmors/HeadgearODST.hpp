@@ -339,7 +339,7 @@ class SFPA_UNSC_CH252D_Helmet_Ryan: OPTRE_UNSC_CH252D_Helmet {
 	};
 };
 
-class SFPA_UNSC_CH252D_Helmet_Ryan: OPTRE_UNSC_CH252D_Helmet_dp {
+class SFPA_UNSC_CH252D_Helmet_Ryan_dp: OPTRE_UNSC_CH252D_Helmet_dp {
   author = "Timm, Ryan (Tander)";
   displayName = "CH252D Helmet [Templar] Ryan";
   hiddenSelectionsTextures[] = {

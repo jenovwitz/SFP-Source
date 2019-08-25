@@ -87,6 +87,102 @@
 	  };
 	};
 
+		class SFPA_UNSC_M52D_Armor_Ghillie_Templar: OPTRE_UNSC_M52D_Armor_Light {
+	  author = "Timm";
+	  displayName = "M52D Body Armor (Ghillie) [Templar]";
+	  hiddenSelectionsTextures[] = {
+	    "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+	    "optre_unsc_units\army\data\armor_odst_co.paa",
+	    "SFPArmors\data\legs_odst_Templar_co.paa",
+	    "optre_unsc_units\army\data\ghillie_woodland_co.paa",
+	    "SFPArmors\data\odst_armor_Templar_co.paa"
+	  };
+	  hiddenSelections[] = {
+	    "camo",
+	    "camo2",
+	    "camo3",
+	    "camo4",
+	    "camo5",
+	    "A_KneesMarLeft",
+	    "A_KneesMarRight",
+	    "AS_LargeLeft",
+	    "AS_LargeRight",
+	    "AS_MediumLeft",
+	    "AS_MediumRight",
+	    "AS_ODSTCQBLeft",
+	    "AS_ODSTCQBRight",
+	    "AS_ODSTSniperLeft",
+	    "AS_ODSTSniperRight",
+	    "AS_SmallLeft",
+	    "AS_SmallRight",
+	    "AP_AR",
+	    "AP_BR",
+	    "AP_GL",
+	    "AP_Knife",
+	    "AP_MGThigh",
+	    "AP_AR",
+	    "AP_Pack",
+	    "AP_Pistol",
+	    "AP_Rounds",
+	    "AP_SG",
+	    "AP_SMG",
+	    "AP_Sniper",
+	    "AP_Thigh",
+	    "AP_Frag",
+	    "APO_AR",
+	    "APO_BR",
+	    "APO_Knife",
+	    "APO_SMG",
+	    "CustomKit_Scorch",
+		"AS_BaseLeft",
+		"AS_BaseRight",
+		};
+		class ItemInfo: ItemInfo { 
+		hiddenSelections[] = {
+	    "camo",
+	    "camo2",
+	    "camo3",
+	    "camo4",
+	    "camo5",
+	    "A_KneesMarLeft",
+	    "A_KneesMarRight",
+	    "AS_LargeLeft",
+	    "AS_LargeRight",
+	    "AS_MediumLeft",
+	    "AS_MediumRight",
+	    "AS_ODSTCQBLeft",
+	    "AS_ODSTCQBRight",
+	    "AS_ODSTSniperLeft",
+	    "AS_ODSTSniperRight",
+	    "AS_SmallLeft",
+	    "AS_SmallRight",
+	    "AP_AR",
+	    "AP_BR",
+	    "AP_GL",
+	    "AP_Knife",
+	    "AP_MGThigh",
+	    "AP_AR",
+	    "AP_Pack",
+	    "AP_Pistol",
+	    "AP_Rounds",
+	    "AP_SG",
+	    "AP_SMG",
+	    "AP_Sniper",
+	    "AP_Thigh",
+	    "AP_Frag",
+	    "APO_AR",
+	    "APO_BR",
+	    "APO_Knife",
+	    "APO_SMG",
+	    "CustomKit_Scorch",
+		"AS_BaseLeft",
+		"AS_BaseRight",
+		"AS_ODSTLeft",
+		"AS_ODSTRight"
+		  };
+		};
+	};
+
 	//Custom
 	class SFPA_UNSC_M52D_Armor_Talbot: OPTRE_UNSC_M52D_Armor {
 	  author = "Talbot, Timm";
@@ -131,7 +227,9 @@
 	    "APO_Knife",
 	    "APO_SMG",
 	    "APO_Sniper",
-	    "CustomKit_Scorch"
+	    "CustomKit_Scorch",
+		"AS_ODSTLeft",
+		"AS_ODSTRight"
 	  };
 	  hiddenSelectionsTextures[] = {
 	    "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
@@ -348,90 +446,6 @@
 	    "optre_unsc_units\army\data\ghillie_woodland_co.paa",
 	    "SFPArmors\data\odst_armor_Ryan_co.paa"
 	  };
-	  hiddenSelections[] = {
-	    "camo",
-	    "camo2",
-	    "camo3",
-	    "camo4",
-	    "camo5",
-	    "A_KneesMarLeft",
-	    "A_KneesMarRight",
-	    "A_TacPad",
-	    "AS_LargeLeft",
-	    "AS_LargeRight",
-	    "AS_MediumLeft",
-	    "AS_MediumRight",
-	    "AS_ODSTLeft",
-	    "AS_ODSTCQBRight",
-	    "AS_ODSTSniperLeft",
-	    "AS_ODSTSniperRight",
-	    "AS_SmallLeft",
-	    "AS_SmallRight",
-	    "AP_AR",
-		"AP_GL",
-	    "AP_BR",
-	    "AP_Canteen",
-	    "AP_Knife",
-	    "AP_MGThigh",
-	    "AP_AR",
-	    "AP_Pack",
-	    "AP_Pistol",
-	    "AP_Rounds",
-	    "AP_SG",
-	    "AP_SMG",
-	    "AP_Sniper",
-	    "AP_Thigh",
-	    "AP_Frag",
-	    "AP_Smoke",
-	    "APO_AR",
-	    "APO_SMG",
-	    "APO_BR",
-	    "APO_Sniper",
-	    "CustomKit_Scorch"
-	  };
-	  class ItemInfo: ItemInfo {
-	    hiddenSelections[] = {
-	      "camo",
-	      "camo2",
-	      "camo3",
-	      "camo4",
-	      "camo5",
-	      "A_KneesMarLeft",
-	      "A_KneesMarRight",
-	      "A_TacPad",
-	      "AS_LargeLeft",
-	      "AS_LargeRight",
-	      "AS_MediumLeft",
-	      "AS_MediumRight",
-	      "AS_ODSTLeft",
-	      "AS_ODSTCQBRight",
-	      "AS_ODSTSniperLeft",
-	      "AS_ODSTSniperRight",
-	      "AS_SmallLeft",
-	      "AS_SmallRight",
-	      "AP_AR",
-	      "AP_BR",
-	      "AP_Canteen",
-	      "AP_Knife",
-	      "AP_MGThigh",
-	      "AP_AR",
-		  "AP_GL",
-	      "AP_Pack",
-	      "AP_Pistol",
-	      "AP_Rounds",
-	      "AP_SG",
-	      "AP_SMG",
-	      "AP_Sniper",
-	      "AP_Thigh",
-	      "AP_Frag",
-	      "AP_Smoke",
-	      "APO_AR",
-	      "APO_SMG",
-	      "APO_BR",
-	      "APO_Sniper",
-	      "CustomKit_Scorch"
-	    };
-	  };
 	};
 	
 	//ONI
@@ -514,6 +528,102 @@
 	  };
 	};
 
+			class SFPA_UNSC_M52D_Armor_Ghillie_Wildcard: OPTRE_UNSC_M52D_Armor_Light {
+	  author = "Timm";
+	  displayName = "M52D Body Armor (Ghillie) [Wildcard]";
+	  hiddenSelectionsTextures[] = {
+	    "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+	    "optre_unsc_units\army\data\armor_odst_co.paa",
+	    "SFPArmors\data\legs_odst_wildcard_co",
+	    "optre_unsc_units\army\data\ghillie_woodland_co.paa",
+	    "SFPArmors\data\odst_armor_wildcard_co"
+	  };
+	  hiddenSelections[] = {
+	    "camo",
+	    "camo2",
+	    "camo3",
+	    "camo4",
+	    "camo5",
+	    "A_KneesMarLeft",
+	    "A_KneesMarRight",
+	    "AS_LargeLeft",
+	    "AS_LargeRight",
+	    "AS_MediumLeft",
+	    "AS_MediumRight",
+	    "AS_ODSTCQBLeft",
+	    "AS_ODSTCQBRight",
+	    "AS_ODSTSniperLeft",
+	    "AS_ODSTSniperRight",
+	    "AS_SmallLeft",
+	    "AS_SmallRight",
+	    "AP_AR",
+	    "AP_BR",
+	    "AP_GL",
+	    "AP_Knife",
+	    "AP_MGThigh",
+	    "AP_AR",
+	    "AP_Pack",
+	    "AP_Pistol",
+	    "AP_Rounds",
+	    "AP_SG",
+	    "AP_SMG",
+	    "AP_Sniper",
+	    "AP_Thigh",
+	    "AP_Frag",
+	    "APO_AR",
+	    "APO_BR",
+	    "APO_Knife",
+	    "APO_SMG",
+	    "CustomKit_Scorch",
+		"AS_BaseLeft",
+		"AS_BaseRight",
+		};
+		class ItemInfo: ItemInfo { 
+		hiddenSelections[] = {
+	    "camo",
+	    "camo2",
+	    "camo3",
+	    "camo4",
+	    "camo5",
+	    "A_KneesMarLeft",
+	    "A_KneesMarRight",
+	    "AS_LargeLeft",
+	    "AS_LargeRight",
+	    "AS_MediumLeft",
+	    "AS_MediumRight",
+	    "AS_ODSTCQBLeft",
+	    "AS_ODSTCQBRight",
+	    "AS_ODSTSniperLeft",
+	    "AS_ODSTSniperRight",
+	    "AS_SmallLeft",
+	    "AS_SmallRight",
+	    "AP_AR",
+	    "AP_BR",
+	    "AP_GL",
+	    "AP_Knife",
+	    "AP_MGThigh",
+	    "AP_AR",
+	    "AP_Pack",
+	    "AP_Pistol",
+	    "AP_Rounds",
+	    "AP_SG",
+	    "AP_SMG",
+	    "AP_Sniper",
+	    "AP_Thigh",
+	    "AP_Frag",
+	    "APO_AR",
+	    "APO_BR",
+	    "APO_Knife",
+	    "APO_SMG",
+	    "CustomKit_Scorch",
+		"AS_BaseLeft",
+		"AS_BaseRight",
+		"AS_ODSTLeft",
+		"AS_ODSTRight"
+		  };
+		};
+	};
+	
 	//Sparrow
 	class SFPA_UNSC_M52D_Armor_Sparrow: OPTRE_UNSC_M52D_Armor {
 	  author = "Talbot, Timm";
@@ -526,6 +636,7 @@
 	    "SFPArmors\data\sparrow_armor_co.paa"
 	  };
 	};
+	
 	//PrototypeShit
 	class OPTRE_UNSC_M52D_DC: OPTRE_UNSC_M52A_Armor1_WDL {
 	  author = "Barrera";

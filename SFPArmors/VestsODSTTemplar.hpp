@@ -449,7 +449,97 @@
 	    "SFPArmors\data\odst_armor_Ryan_co.paa"
 	  };
 	};
-	
+	class SFPA_UNSC_M52D_Armor_LOCKLEAR: OPTRE_UNSC_M52D_Armor_Scout {
+	author = "Timm, Talbot";
+	displayName = "M52D Body Armor [Phoenix] Locklear";
+	hiddenSelectionsTextures[] = {
+    "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+    "optre_unsc_units\army\data\armor_odst_co.paa",
+    "SFPArmors\data\legs_odst_Phoenix_co.paa",
+    "optre_unsc_units\army\data\ghillie_woodland_co.paa",
+    "SFPArmors\data\odst_armor_phoenix_medic_co.paa"
+	};
+		hiddenSelections[] = {
+			"camo",
+			"camo2",
+			"camo3",
+			"camo4",
+			"camo5",
+			"A_KneesMarLeft",
+			"A_KneesMarRight",
+			"A_Ghillie",
+			"A_TacPad",
+			"AS_LargeLeft",
+			"AS_LargeRight",
+			"AS_MediumLeft",
+			"AS_MediumRight",
+			"AS_ODSTCQBLeft",
+			"AS_ODSTCQBRight",
+			"AS_ODSTSniperLeft",
+			"AS_ODSTSniperRight",
+			"AS_SmallLeft",
+			"AS_SmallRight",
+			"AP_AR",
+			"AP_BR",
+			"AP_Canteen",
+			"AP_GL",
+			"AP_AR",
+			"AP_Pack",
+			"AP_Pistol",
+			"AP_Rounds",
+			"AP_SG",
+			"AP_SMG",
+			"AP_Sniper",
+			"AP_Frag",
+			"APO_AR",
+			"APO_BR",
+			"APO_Knife",
+			"APO_Sniper",
+			"CustomKit_Scorch"
+		};
+		class ItemInfo: ItemInfo {
+			hiddenSelections[]=
+			{
+				"camo",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"A_KneesMarLeft",
+				"A_KneesMarRight",
+				"A_Ghillie",
+				"A_TacPad",
+				"AS_LargeLeft",
+				"AS_LargeRight",
+				"AS_MediumLeft",
+				"AS_MediumRight",
+				"AS_ODSTCQBLeft",
+				"AS_ODSTCQBRight",
+				"AS_ODSTSniperLeft",
+				"AS_ODSTSniperRight",
+				"AS_SmallLeft",
+				"AS_SmallRight",
+				"AP_AR",
+				"AP_BR",
+				"AP_Canteen",
+				"AP_GL",
+				"AP_AR",
+				"AP_Pack",
+				"AP_Pistol",
+				"AP_Rounds",
+				"AP_SG",
+				"AP_SMG",
+				"AP_Sniper",
+				"AP_Frag",
+				"APO_AR",
+				"APO_BR",
+				"APO_Knife",
+				"APO_Sniper",
+				"CustomKit_Scorch"
+			};
+		};
+	};
+
 	//ONI
 	class SFPA_ONI_M52D_Armor_Sniper_Pierre: OPTRE_UNSC_M52D_Armor_Sniper {
 	  author = "Barrera";
@@ -530,7 +620,7 @@
 	  };
 	};
 
-			class SFPA_UNSC_M52D_Armor_Ghillie_Wildcard: OPTRE_UNSC_M52D_Armor_Light {
+	class SFPA_UNSC_M52D_Armor_Ghillie_Wildcard: OPTRE_UNSC_M52D_Armor_Light {
 	  author = "Timm";
 	  displayName = "M52D Body Armor (Ghillie) [Wildcard]";
 	  hiddenSelectionsTextures[] = {

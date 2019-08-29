@@ -322,7 +322,7 @@ class SFPA_UNSC_CH252D_Helmet_Vekt: OPTRE_UNSC_CH252D_Helmet {
   displayName = "CH252D Helmet [Phoenix] Vektorous";
   hiddenSelectionsTextures[] = {
     "SFPArmors\data\Phoenix_helmet_VEKT.paa",
-    "SFPArmors\data\odst_helmet_Visor_phoenix_co_dp.paa"
+    "SFPArmors\data\odst_helmet_Visor_phoenix_co.paa"
   };
 };
 
@@ -348,6 +348,24 @@ class SFPA_UNSC_CH252D_Helmet_Ryan_dp: OPTRE_UNSC_CH252D_Helmet_dp {
   displayName = "CH252D Helmet [Templar] Ryan";
   hiddenSelectionsTextures[] = {
     "SFPArmors\data\odst_helmet_Ryan_co.paa",
+    "SFPArmors\data\ODST_Helmet_Visor_dp_ca.paa"
+	};
+};
+
+class SFPA_UNSC_CH252D_Helmet_Lock: OPTRE_UNSC_CH252D_Helmet {
+  author = "Timm, Talbot)";
+  displayName = "CH252D Helmet [Phoenix] Locklear";
+  hiddenSelectionsTextures[] = {
+    "SFPArmors\data\odst_helmet_Phoenix_LOCKLEAR_co.paa",
+    "SFPArmors\data\odst_helmet_visor_Phoenix_co.paa"
+	};
+};
+
+class SFPA_UNSC_CH252D_Helmet_Lock_dp: OPTRE_UNSC_CH252D_Helmet_dp {
+  author = "Timm, Talbot";
+  displayName = "CH252D Helmet [Phoenix] Locklear";
+  hiddenSelectionsTextures[] = {
+    "SFPArmors\data\odst_helmet_Phoenix_LOCKLEAR_co.paa",
     "SFPArmors\data\ODST_Helmet_Visor_dp_ca.paa"
 	};
 };

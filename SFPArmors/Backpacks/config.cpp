@@ -186,7 +186,7 @@ class cfgVehicles {
   //Phoenix
   class SFPA_UNSC_Commpack_Phoenix: Strike_Force_Phoenix_ANPRC_521_Green {
     author = "Talbot, Article 2 Studios";
-    displayName = "AN/PRC-521A2 [Phoenix] [WIP]";
+    displayName = "AN/PRC-521A2 [Phoenix]]";
     scopeArsenal = 2;
     scopeCurator = 2;
     maximumLoad = 150;
